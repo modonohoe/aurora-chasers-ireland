@@ -5,7 +5,7 @@ body {
     font-weight: 300;
     background-color: black;
     min-height: 100vh;
-    padding-top: 20px;
+    color: #b693fe;
 }
 
 h1, h2 {
@@ -69,6 +69,48 @@ h1, h2 {
 
 }
 
-#footer {
+#intro section {
+    width: 100%;
+}
 
+#intro-flexbox {
+    display: flex;
+    flex-wrap: wrap
+    width: 100%;
+}
+
+#intro-flexbox h3 {
+    padding: 12px;
+}
+
+#intro-flexbox span {
+    padding: 8px;
+}
+
+#intro-flexbox-text {
+    width: 35%;
+}
+
+#intro-flexbox-image {
+    width: 15%;
+}
+
+#intro-flexbox-image img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+#intro-flexbox-weather {
+    width: 25%;
+}
+
+#intro-flexbox-solar {
+    width: 25%;
+}
+
+
+footer {
+    border: 2px solid #FF9DE2;
+    padding: 10px;
+    text-align: center;
 }
