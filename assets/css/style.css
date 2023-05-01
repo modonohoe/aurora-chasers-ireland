@@ -11,7 +11,11 @@ body {
 h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #FF9DE2;
+    color: #ad5ec9;
+}
+
+h1:hover {
+    text-shadow: 4px 4px 8px rgba(155,155,155,0.8);
 }
 
 /* Styling for the header*/
@@ -39,21 +43,21 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: #b693fe;
+    color: #9897b5;
 }
 
 #menu a:hover {
-    fill: #FF9DE2;
-    border: 1px solid #FF9DE2;
+    color: whitesmoke;
+    text-shadow: 4px 4px 8px rgba(155,155,155,0.8);
 }
 
 .active {
     border-bottom: 1px solid #FF9DE2;
 }
+
 /* hero image */
-
-
 #hero {
+    position: relative;
     width: 100%;
     height: 180px;
     overflow: hidden;
@@ -69,18 +73,25 @@ h1, h2 {
 
 }
 
+#disclaimer {
+    background-color: #462D5A;
+    color: whitesmoke;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(155,155,155,0.8);
+}
+
 #intro section {
     width: 100%;
 }
 
 #intro-flexbox {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
-}
-
-#intro-flexbox h3 {
-    padding: 12px;
+    height: 100%;
 }
 
 #intro-flexbox span {
@@ -88,26 +99,39 @@ h1, h2 {
 }
 
 #intro-flexbox-text {
-    width: 35%;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 35px;
 }
 
-#intro-flexbox-image {
-    width: 15%;
-}
-
-#intro-flexbox-image img {
-    width: 100%;
-    border-radius: 100%;
+#intro-flexbox-text img {
+    float: right;
+    width: 50%;
+    text-align: right;
+    border-radius: 50%;
 }
 
 #intro-flexbox-weather {
+    background-color: whitesmoke;
+    border-radius: 35px;
     width: 25%;
+}
+
+#intro-flexbox-weather iframe {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
 }
 
 #intro-flexbox-solar {
+    background-color: whitesmoke;
+    border-radius: 35px;
     width: 25%;
 }
 
+#intro-flexbox-solar img {
+    width: 100%;
+}
 
 footer {
     border: 2px solid #FF9DE2;
