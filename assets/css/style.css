@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=IBM+Plex+Serif&display=swap');
 
 body {
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 300;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 400;
+    font-size: large;
     background-color: black;
     min-height: 100vh;
-    color: #b693fe;
+    color: whitesmoke;
 }
 
-h1, h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+h1 {
+    font-family: 'Eczar', serif;
     color: #ad5ec9;
+}
+
+h2, h4 {
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #462D5A;
 }
 
 h1:hover {
@@ -48,7 +54,7 @@ h1:hover {
 
 #menu a:hover {
     color: whitesmoke;
-    text-shadow: 4px 4px 8px rgba(155,155,155,0.8);
+    text-shadow: 2px 2px 5px rgba(173,94,201,0.8);
 }
 
 .active {
@@ -75,66 +81,151 @@ h1:hover {
 
 #disclaimer {
     background-color: #462D5A;
-    color: whitesmoke;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    color: #d3d3d3;
+    font-size: medium;
+    padding: 1rem;
+    margin: 1rem;
     border-radius: 10px;
-    box-shadow: 4px 4px 10px rgba(155,155,155,0.8);
+    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
 #intro section {
     width: 100%;
 }
 
-#intro-flexbox {
+#home-flexbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
 }
 
-#intro-flexbox span {
-    padding: 8px;
+#home-flexbox span {
+    padding: 1rem;
 }
 
-#intro-flexbox-text {
-    width: 40%;
-    background-color: whitesmoke;
+#home-flexbox-text {
+    width: 47%;
+    background-color: #7240bf;
     border-radius: 35px;
+    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
-#intro-flexbox-text img {
+#home-flexbox-text img {
     float: right;
-    width: 50%;
+    width: 40%;
     text-align: right;
     border-radius: 50%;
+    border: 5px solid #462D5A;
 }
 
-#intro-flexbox-weather {
-    background-color: whitesmoke;
+#home-flexbox-quick-link {
+    width: 47%;
+    background-color: black;
     border-radius: 35px;
-    width: 25%;
 }
 
-#intro-flexbox-weather iframe {
-    background-color: whitesmoke;
-    width: 100%;
-    height: auto;
-}
-
-#intro-flexbox-solar {
-    background-color: whitesmoke;
+#home-flexbox-tips {
+    width: 90%;
+    background-color: #7240bf;
     border-radius: 35px;
-    width: 25%;
+    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
-#intro-flexbox-solar img {
+/* accordion https://alvarotrigo.com/blog/css-accordion/ */
+
+#home-flexbox-tips ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+  }
+#home-flexbox-tips ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 18px;
+    border-top: 1px dotted #dce7eb;
+  }
+#home-flexbox-tips ul li:nth-of-type(1) {
+    animation-delay: 0.5s;
+  }
+#home-flexbox-tips ul li:nth-of-type(2) {
+    animation-delay: 0.75s;
+  }
+#home-flexbox-tips ul li:nth-of-type(3) {
+    animation-delay: 1s;
+  }
+#home-flexbox-tips ul li:last-of-type {
+    padding-bottom: 0;
+  }
+#home-flexbox-tips ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 0;
+  }
+#home-flexbox-tips ul li i:before, ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #ad5ec9;
+    width: 3px;
+    height: 9px;
+  }
+#home-flexbox-tips ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+#home-flexbox-tips ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+#home-flexbox-tips ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
     width: 100%;
-}
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+#home-flexbox-tips ul li input[type=checkbox]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+  }
+#home-flexbox-tips ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+  }
+#home-flexbox-tips ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+  }
+  
+@keyframes flipdown {
+    0% {
+      opacity: 0;
+      transform-origin: top center;
+      transform: rotateX(-90deg);
+    }
+    5% {
+      opacity: 1;
+    }
+    80% {
+      transform: rotateX(8deg);
+    }
+    83% {
+      transform: rotateX(6deg);
+    }
+    92% {
+      transform: rotateX(-3deg);
+    }
+    100% {
+      transform-origin: top center;
+      transform: rotateX(0deg);
+    }
+  }
 
 footer {
     border: 2px solid #FF9DE2;
+    margin-top: 15px;
     padding: 10px;
     text-align: center;
 }
