@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=IBM+Plex+Serif&family=Satisfy&display=swap');
 
 body {
     font-family: 'IBM Plex Serif', serif;
@@ -22,6 +22,12 @@ h2, h4 {
 
 h1:hover {
     text-shadow: 4px 4px 8px rgba(155,155,155,0.8);
+}
+
+#cursive {
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px #462D5A;
 }
 
 /* Styling for the header*/
@@ -168,7 +174,7 @@ h1:hover {
 #home-flexbox-tips ul li i:before, ul li i:after {
     content: "";
     position: absolute;
-    background-color: #ad5ec9;
+    background-color: black;
     width: 3px;
     height: 9px;
   }
@@ -223,9 +229,46 @@ h1:hover {
     }
   }
 
+/* Gallery */
+
+
+/* Contact us page */
+
+#forms-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#forms span {
+    width: 47%;
+
+}
+
+#contact-us {
+    background-color: white;
+}
+
+#subscribe {
+    background-color: pink;
+}
+
+/* BIG FOOTER ISSUE because of inheritance */
 footer {
-    border: 2px solid #FF9DE2;
-    margin-top: 15px;
-    padding: 10px;
+    height: 150px;
+}
+
+.social-networks {
     text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
