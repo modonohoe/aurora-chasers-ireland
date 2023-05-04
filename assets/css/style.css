@@ -231,6 +231,15 @@ h1:hover {
 
 /* Gallery */
 
+#flexbox-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#photos img {
+    width: 30%;
+    padding: 2%;
+}
 
 /* Contact us page */
 
@@ -252,6 +261,10 @@ h1:hover {
 #subscribe {
     background-color: pink;
 }
+
+/* https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/ */
+
+
 
 /* BIG FOOTER ISSUE because of inheritance */
 footer {
