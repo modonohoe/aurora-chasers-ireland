@@ -38,15 +38,20 @@ h1:hover {
 }
 
 #menu {
-    font-size: 120%;
-    padding-top: 25px;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    padding-top: 3vh;
+    margin: 0%;
+    list-style: none;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 15px;
-    padding: 2px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 #menu, #logo {
@@ -64,8 +69,10 @@ h1:hover {
 }
 
 .active {
-    border-bottom: 1px solid #FF9DE2;
+    border-bottom: 1px double whitesmoke;
+    padding-bottom: 0.5rem;
 }
+
 
 /* hero image */
 #hero {
@@ -82,8 +89,25 @@ h1:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
+    
+    /* animation zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
 }
+
+/* creates the level of zoom for the hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
 
 #disclaimer {
     background-color: #462D5A;
@@ -102,17 +126,21 @@ h1:hover {
 #home-flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #home-flexbox span {
     padding: 1rem;
+    margin: 1rem;
+    flex-grow: 1;
+    width: 45%;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 35px;
 }
 
 #home-flexbox-text {
-    width: 47%;
     background-color: #7240bf;
-    border-radius: 35px;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
@@ -125,9 +153,7 @@ h1:hover {
 }
 
 #home-flexbox-quick-link {
-    width: 47%;
     background-color: black;
-    border-radius: 35px;
 }
 
 #home-flexbox-tips {
@@ -255,6 +281,7 @@ h1:hover {
 }
 
 #contact-us {
+
     background-color: white;
 }
 
@@ -267,21 +294,33 @@ h1:hover {
 
 
 /* BIG FOOTER ISSUE because of inheritance */
+
 footer {
+    width: 100%;
     height: 150px;
 }
 
 .social-networks {
+    border: 5px solid green;
     text-align: center;
+
 }
 
-.social-networks > li {
+.social-networks li {
     display: inline;
+    text-decoration: none;
+    color: #9897b5;
+}
+
+
+.social-networks i:hover {
+    color: whitesmoke;
+    text-shadow: 4px 4px 6px rgba(173,94,201,0.8);
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
-    padding: 5%;
+    padding: 3%;
     color: #3a3a3a;
 }
