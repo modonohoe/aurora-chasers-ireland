@@ -20,10 +20,11 @@ h1 {
     color: #ad5ec9;
 }
 
-h2, h4 {
-    letter-spacing: 2px;
+h2, h3, h4 {
+    letter-spacing: 0.2rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px #462D5A;
+    margin-left: 1.5rem;
 }
 
 h1:hover {
@@ -186,10 +187,9 @@ header {
 }
 
 
-#flexbox-tips {
-    width: 90%;
-    margin: 1rem;
+#tips-box {
     padding: 1rem;
+    margin: 1rem;
     background-color: #7240bf;
     border-radius: 35px;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
@@ -197,13 +197,13 @@ header {
 
 /* accordion https://alvarotrigo.com/blog/css-accordion/ */
 
-#flexbox-tips ul {
+#tips-box ul {
     list-style: none;
     perspective: 900;
     padding: 0;
     margin: 0;
   }
-#flexbox-tips ul li {
+#tips-box ul li {
     position: relative;
     padding: 0;
     margin: 0;
@@ -211,38 +211,38 @@ header {
     padding-top: 18px;
     border-top: 1px dotted #dce7eb;
   }
-#flexbox-tips ul li:nth-of-type(1) {
+#tips-box ul li:nth-of-type(1) {
     animation-delay: 0.5s;
   }
-#flexbox-tips ul li:nth-of-type(2) {
+#tips-box ul li:nth-of-type(2) {
     animation-delay: 0.75s;
   }
-#flexbox-tips ul li:nth-of-type(3) {
+#tips-box ul li:nth-of-type(3) {
     animation-delay: 1s;
   }
-#flexbox-tips ul li:last-of-type {
+#tips-box ul li:last-of-type {
     padding-bottom: 0;
   }
-#flexbox-tips ul li i {
+#tips-box ul li i {
     position: absolute;
     transform: translate(-6px, 0);
     margin-top: 16px;
     right: 0;
   }
-#flexbox-tips ul li i:before, ul li i:after {
+#tips-box ul li i:before, #tips-box ul li i:after {
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: #462D5A;
     width: 3px;
     height: 9px;
   }
-#flexbox-tips ul li i:before {
+#tips-box ul li i:before {
     transform: translate(-2px, 0) rotate(45deg);
   }
-#flexbox-tips ul li i:after {
+#tips-box ul li i:after {
     transform: translate(2px, 0) rotate(-45deg);
   }
-#flexbox-tips ul li input[type=checkbox] {
+#tips-box ul li input[type=checkbox] {
     position: absolute;
     cursor: pointer;
     width: 100%;
@@ -250,16 +250,16 @@ header {
     z-index: 1;
     opacity: 0;
   }
-#flexbox-tips ul li input[type=checkbox]:checked ~ p {
+#tips-box ul li input[type=checkbox]:checked ~ p {
     margin-top: 0;
     max-height: 0;
     opacity: 0;
     transform: translate(0, 50%);
   }
-#flexbox-tips ul li input[type=checkbox]:checked ~ i:before {
+#tips-box ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(2px, 0) rotate(45deg);
   }
-#flexbox-tips ul li input[type=checkbox]:checked ~ i:after {
+#tips-box ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
   }
   
@@ -354,9 +354,8 @@ header {
 #forms, #forms2 {
     display: flex;
     justify-content: flex-start;
-    padding: 1rem;
     margin: 1rem;
-    border: 2px solid green;
+    border: 2px solid black;
     border-radius: 20px;
     width: 40%;
     min-width: 300px;
@@ -366,20 +365,42 @@ header {
     width: 100%;
 }
 
+#goodbye-message {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(to top right, #462D5A, black);
+    margin: 1rem 0;
+    padding: 3.2rem 0;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+}
 
 #contact-us {
     flex-grow: 1;
     background-color: #7240bf;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 #subscribe {
     flex-grow: 1;
     background-color: #ad5ec9;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 legend {
     font-size: larger;
     font-weight: bold;
+}
+
+fieldset {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 .input-styles-1 {
@@ -427,10 +448,24 @@ legend {
 
 .submit:active {
     background-color: #462D5A;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 
+/* Confirmation boxes for subscription and enquiry pages*/
+
+.confirmation {
+    width: 80%;
+    border: 2px solid #7240bf;
+    border-radius: 20px;
+    background-color: #7240bf;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 1rem;
+    margin: 3.5rem;
+    box-shadow: 5px 5px 10px rgb(248, 111, 218);
+}
 
 
 
