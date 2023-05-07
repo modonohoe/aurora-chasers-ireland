@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=IBM+Plex+Serif&family=Satisfy&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 400;
@@ -31,6 +37,7 @@ h1:hover {
 }
 
 /* Styling for the header*/
+
 #logo {
     float: left;
     font-size: 200%;
@@ -166,8 +173,10 @@ h1:hover {
 }
 
 
-#home-flexbox-tips {
+#flexbox-tips {
     width: 90%;
+    margin: 1rem;
+    padding: 1rem;
     background-color: #7240bf;
     border-radius: 35px;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
@@ -175,13 +184,13 @@ h1:hover {
 
 /* accordion https://alvarotrigo.com/blog/css-accordion/ */
 
-#home-flexbox-tips ul {
+#flexbox-tips ul {
     list-style: none;
     perspective: 900;
     padding: 0;
     margin: 0;
   }
-#home-flexbox-tips ul li {
+#flexbox-tips ul li {
     position: relative;
     padding: 0;
     margin: 0;
@@ -189,38 +198,38 @@ h1:hover {
     padding-top: 18px;
     border-top: 1px dotted #dce7eb;
   }
-#home-flexbox-tips ul li:nth-of-type(1) {
+#flexbox-tips ul li:nth-of-type(1) {
     animation-delay: 0.5s;
   }
-#home-flexbox-tips ul li:nth-of-type(2) {
+#flexbox-tips ul li:nth-of-type(2) {
     animation-delay: 0.75s;
   }
-#home-flexbox-tips ul li:nth-of-type(3) {
+#flexbox-tips ul li:nth-of-type(3) {
     animation-delay: 1s;
   }
-#home-flexbox-tips ul li:last-of-type {
+#flexbox-tips ul li:last-of-type {
     padding-bottom: 0;
   }
-#home-flexbox-tips ul li i {
+#flexbox-tips ul li i {
     position: absolute;
     transform: translate(-6px, 0);
     margin-top: 16px;
     right: 0;
   }
-#home-flexbox-tips ul li i:before, ul li i:after {
+#flexbox-tips ul li i:before, ul li i:after {
     content: "";
     position: absolute;
     background-color: black;
     width: 3px;
     height: 9px;
   }
-#home-flexbox-tips ul li i:before {
+#flexbox-tips ul li i:before {
     transform: translate(-2px, 0) rotate(45deg);
   }
-#home-flexbox-tips ul li i:after {
+#flexbox-tips ul li i:after {
     transform: translate(2px, 0) rotate(-45deg);
   }
-#home-flexbox-tips ul li input[type=checkbox] {
+#flexbox-tips ul li input[type=checkbox] {
     position: absolute;
     cursor: pointer;
     width: 100%;
@@ -228,16 +237,16 @@ h1:hover {
     z-index: 1;
     opacity: 0;
   }
-#home-flexbox-tips ul li input[type=checkbox]:checked ~ p {
+#flexbox-tips ul li input[type=checkbox]:checked ~ p {
     margin-top: 0;
     max-height: 0;
     opacity: 0;
     transform: translate(0, 50%);
   }
-#home-flexbox-tips ul li input[type=checkbox]:checked ~ i:before {
+#flexbox-tips ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(2px, 0) rotate(45deg);
   }
-#home-flexbox-tips ul li input[type=checkbox]:checked ~ i:after {
+#flexbox-tips ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
   }
   
@@ -300,7 +309,7 @@ h1:hover {
 }
 
 #flexbox-photos span:hover {
-    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
+    box-shadow: 4px 4px 10px rgb(248, 111, 218);
 }
 
 /* Contact us page */
@@ -312,28 +321,93 @@ h1:hover {
 #forms {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center space-evenly;
-    flex-direction: row;
-    align-items: flex-start;
+    align-content: flex-start;
     width: 100%;
-    flex-grow: 1;
 }
 
-#forms form {
+#forms form, span {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
     padding: 1rem;
     margin: 1rem;
     border: 2px solid green;
+    border-radius: 20px;
     width: 40%;
     min-width: 300px;
 }
 
+#forms span {
+    height: fit-content;
+    flex-grow: 1 1 auto;
+}
+
 #contact-us {
+    flex-grow: 2 2 auto;
     background-color: #7240bf;
 }
 
 #subscribe {
+    height: fit-content;
+    flex-grow: 1 1 auto;
     background-color: #ad5ec9;
 }
+
+legend {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.input-styles-1 {
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 40%;
+}
+
+.input-styles-2 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    color: black;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 60%;
+}
+
+.submit {
+    background-color: whitesmoke;
+    color: #462D5A;
+    font-size: larger;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    border: 2px solid #462D5A;
+    border-radius: 20px;
+    margin: 0.5rem 0.5rem 0.5rem 2rem;
+    padding: 1rem;
+}
+
+.input-styles-2:hover {
+    box-shadow: 5px 5px 10px rgb(248, 111, 218);
+}
+
+.input-styles-2:focus-visible {
+    box-shadow: 5px 5px 10px rgb(248, 111, 218);
+}
+
+.submit:hover {
+    box-shadow: 5px 5px 10px rgb(248, 111, 218);
+    font-size: x-large;
+}
+
+.submit:active {
+    background-color: #462D5A;
+    color: whitesmoke
+}
+
+
 
 
 
@@ -346,7 +420,7 @@ h1:hover {
 footer {
     width: 100%;
     height: 60px;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     background-color: black;
