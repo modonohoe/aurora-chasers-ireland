@@ -37,7 +37,7 @@ h1:hover {
     text-shadow: 2px 2px 2px #462D5A;
 }
 
-/* Styling for the header*/
+/* styling for the header*/
 
 header {
     display: flex;
@@ -97,6 +97,7 @@ header {
 
 
 /* hero image */
+
 #hero {
     position: relative;
     width: 100%;
@@ -113,12 +114,11 @@ header {
     object-fit: cover;
     
 /* animation zoom effect on loading page */
+
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: backwards;
 }
-
-/* creates the level of zoom for the hero image */
 
 @keyframes hero-zoom {
     from{
@@ -129,7 +129,7 @@ header {
     }
 }
 
-
+/* disclaimer */
 
 #disclaimer {
     background-color: #462D5A;
@@ -140,6 +140,8 @@ header {
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
+
+/* styling for home page content */
 
 #intro section {
     width: 100%;
@@ -173,6 +175,8 @@ header {
     border: 5px solid #462D5A;
 }
 
+/* flex box within flexbox for widgets */
+
 #home-flexbox-weather, #home-flexbox-solar {
     display: flex;
     min-width: 300px;
@@ -186,8 +190,7 @@ header {
     padding: 1rem;
 } 
 
-
-/* Styling for Tips and Resources page*/
+/* styling for tips and resources page */
 
 #tips-box {
     padding: 1rem;
@@ -197,14 +200,14 @@ header {
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
-/* accordion https://alvarotrigo.com/blog/css-accordion/ */
+/* accordion - code derived from https://alvarotrigo.com/blog/css-accordion/ */
 
 #tips-box ul {
     list-style: none;
     perspective: 900;
     padding: 0.5rem;
     margin: 0.5rem;
-  }
+}
 
 #tips-box ul li {
     position: relative;
@@ -213,7 +216,7 @@ header {
     padding-bottom: 4px;
     padding-top: 18px;
     border-top: 1px solid #dce7eb;
-  }
+}
 
 #tips-box img {
     width: 80%;
@@ -224,35 +227,43 @@ header {
 
 #tips-box ul li:nth-of-type(1) {
     animation-delay: 0.5s;
-  }
+}
+
 #tips-box ul li:nth-of-type(2) {
     animation-delay: 0.75s;
-  }
+}
+
 #tips-box ul li:nth-of-type(3) {
     animation-delay: 1s;
-  }
+}
+
 #tips-box ul li:last-of-type {
     padding-bottom: 0;
-  }
+}
+
 #tips-box ul li i {
     position: absolute;
     transform: translate(-6px, 0);
     margin-top: 16px;
     right: 0;
-  }
-#tips-box ul li i:before, #tips-box ul li i:after {
+}
+
+  #tips-box ul li i:before, #tips-box ul li i:after {
     content: "";
     position: absolute;
     background-color: #ad5ec9;
     width: 3px;
     height: 9px;
-  }
+}
+
 #tips-box ul li i:before {
     transform: translate(-2px, 0) rotate(45deg);
-  }
+}
+
 #tips-box ul li i:after {
     transform: translate(2px, 0) rotate(-45deg);
-  }
+}
+
 #tips-box ul li input[type=checkbox] {
     position: absolute;
     cursor: pointer;
@@ -260,19 +271,22 @@ header {
     height: 100%;
     z-index: 1;
     opacity: 0;
-  }
+}
+
 #tips-box ul li input[type=checkbox]:checked ~ p {
     margin-top: 0;
     max-height: 0;
     opacity: 0;
     transform: translate(0, 50%);
   }
+
 #tips-box ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(2px, 0) rotate(45deg);
-  }
+}
+
 #tips-box ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
-  }
+}
   
 @keyframes flipdown {
     0% {
@@ -296,9 +310,9 @@ header {
       transform-origin: top center;
       transform: rotateX(0deg);
     }
-  }
+}
 
-/* Gallery */
+/* styling for gallery page */
 
 #flexbox-photos {
     display: flex;
@@ -307,6 +321,7 @@ header {
     flex-direction: row;
     align-items: flex-start;
 }
+
 #flexbox-photos span {
     display: flex;
     justify-content: flex-start;
@@ -336,7 +351,7 @@ header {
     box-shadow: 4px 4px 10px rgb(248, 111, 218);
 }
 
-/* Contact us page */
+/* styling for contact page - reference from https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/ */
 
 #forms-flexbox {
     display: flex;
@@ -463,7 +478,7 @@ fieldset {
 }
 
 
-/* Confirmation boxes for subscription and enquiry pages*/
+/* styling for confirmation page for subscription and enquiry*/
 
 .confirmation {
     width: 80%;
@@ -478,13 +493,7 @@ fieldset {
     box-shadow: 5px 5px 10px rgb(248, 111, 218);
 }
 
-
-
-/* https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/ */
-
-
-
-/* BIG FOOTER ISSUE because of inheritance */
+/* styling for footer */
 
 footer {
     width: 100%;
