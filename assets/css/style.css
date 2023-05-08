@@ -518,6 +518,18 @@ footer {
     margin-top: 1rem;
 }
 
+footer p {
+    position: static;
+    padding: 1rem;
+    float: right;
+    font-size: x-small;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .social-networks {
     border: 1px solid black;
     text-align: center;
