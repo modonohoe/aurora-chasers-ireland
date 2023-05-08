@@ -24,7 +24,7 @@ h2, h3, h4 {
     letter-spacing: 0.2rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px #462D5A;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 
 h1:hover {
@@ -154,13 +154,13 @@ header {
 }
 
 #home-flexbox div {
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
     border-radius: 35px;
 }
 
 #home-flexbox-text {
-    width: 38%;
+    width: 30%;
     min-width: 450px;
     flex-grow: 1;
     background-color: #7240bf;
@@ -179,7 +179,7 @@ header {
 
 #home-flexbox-weather, #home-flexbox-solar {
     display: flex;
-    min-width: 300px;
+    min-width: 350px;
     flex-direction: column;
     flex-grow: 1;
     width: 22%;
@@ -313,6 +313,19 @@ header {
 }
 
 /* styling for gallery page */
+
+#gallery-intro p {
+    padding: 0.5rem 1rem;
+}
+
+#gallery-intro a {
+    color: #ad5ec9;
+    text-decoration: none;
+}
+
+#gallery-intro a:hover {
+    color: #7240bf;
+}
 
 #flexbox-photos {
     display: flex;
