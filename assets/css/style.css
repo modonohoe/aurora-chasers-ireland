@@ -112,7 +112,7 @@ header {
     height: 100%;
     object-fit: cover;
     
-    /* animation zoom effect on loading page */
+/* animation zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: backwards;
