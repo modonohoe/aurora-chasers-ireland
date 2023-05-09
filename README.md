@@ -33,15 +33,15 @@ Am i responsive screenshot
         * [Language](#language)
         * [Framework and Tools](#framework-and-tools)
         * [Media](#media)
-    * [Testing and Validation](#testing-and-validation)
+4. [Testing and Validation](#testing-and-validation)
         * [HTML](#html)
         * [CSS](#css)
         * [Accessibility and Performance](#accessibility-and-performance)
         * [Browser Compatability](#browser-compatability)
         * [Testing User Stories](#testing-user-stories)
         * [Bugs and Fixes](#bugs-and-fixes)
-    * [Deployment and Development](#deployment-and-development)
-    * [Credits](#credits)
+5. [Deployment and Development](#deployment-and-development)
+6. [Credits](#credits)
 
 ## Project Goals
 ### Site Owner Goals
