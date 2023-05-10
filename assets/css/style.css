@@ -20,6 +20,10 @@ h1 {
     color: #ad5ec9;
 }
 
+@media (max-width: 560px) {
+    h1 {font-size: 35px;}
+}
+
 h2, h3, h4 {
     letter-spacing: 0.2rem;
     color: whitesmoke;
