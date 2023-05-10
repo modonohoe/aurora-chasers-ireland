@@ -242,7 +242,14 @@ header {
 
 #clickable-headings {
     font-size: x-large;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+#clickable-headings a {
+    padding: 0.5rem;
 }
 
 #tips-box div {
@@ -410,7 +417,7 @@ header {
 
 #subscribe {
     flex-grow: 1;
-    background-color: #ad5ec9;
+    background-color: #9a23c6;
     border-radius: 20px;
     padding: 1rem;
 }
