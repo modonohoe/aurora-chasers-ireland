@@ -270,27 +270,33 @@ header {
 }
 
 .halogreen {
-    text-shadow: 5px 5px 8px green;
+    color: black;
+    text-shadow: 1px 1px 1px greenyellow, 1px 1px 1px greenyellow, 1px -1px 1px greenyellow, -1px -1px 1px greenyellow;
 }
 
 .halopink {
-    text-shadow: 5px 5px 8px magenta;
+    color: black;
+    text-shadow: 1px 1px 1px magenta, 1px 1px 1px magenta, 1px -1px 1px magenta, -1px -1px 1px magenta;
 }
 
 .halowine {
-    text-shadow: 5px 5px 8px darkred;
+    color: black;
+    text-shadow: 1px 1px 1px red, 1px 1px 1px red, 1px -1px 1px red, -1px -1px 1px red;
 }
 
 .halored {
-    text-shadow: 5px 5px 8px red;
+    color: black;
+    text-shadow: 1px 1px 1px crimson, 1px 1px 1px crimson, 1px -1px 1px crimson, -1px -1px 1px crimson;
 }
 
 .haloblue {
-    text-shadow: 5px 5px 8px blue;
+    color: black;
+    text-shadow: 1px 1px 1px aqua, 1px 1px 1px aqua, 1px -1px 1px aqua, -1px -1px 1px aqua;
 }
 
 .halopurple {
-    text-shadow: 5px 5px 8px fuchsia;
+    color: black;
+    text-shadow: 1px 1px 1px fuchsia, 1px 1px 1px fuchsia, 1px -1px 1px fuchsia, -1px -1px 1px fuchsia;
 }
 
 /* styling for gallery page */
