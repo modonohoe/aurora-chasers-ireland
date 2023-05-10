@@ -252,6 +252,13 @@ header {
     padding: 0.5rem;
 }
 
+#clickable-headings a:hover {
+    border: 1px groove whitesmoke;
+    border-radius: 20px;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
+}
+
 #tips-box div {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -413,6 +420,7 @@ header {
     background-color: #7240bf;
     border-radius: 20px;
     padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
 #subscribe {
@@ -420,6 +428,7 @@ header {
     background-color: #9a23c6;
     border-radius: 20px;
     padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
 legend {
