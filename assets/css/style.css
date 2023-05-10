@@ -37,6 +37,15 @@ h1:hover {
     text-shadow: 2px 2px 2px #462D5A;
 }
 
+.hyperlinks {
+    color: #ad5ec9;
+    text-decoration: none;
+}
+
+.hyperlinks:hover {
+    color: #7240bf;
+}
+
 /* styling for the header*/
 
 header {
@@ -316,15 +325,6 @@ header {
 
 #gallery-intro p {
     padding: 0.5rem 1rem;
-}
-
-#gallery-intro a {
-    color: #ad5ec9;
-    text-decoration: none;
-}
-
-#gallery-intro a:hover {
-    color: #7240bf;
 }
 
 #flexbox-photos {
