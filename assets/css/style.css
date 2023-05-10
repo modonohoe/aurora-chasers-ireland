@@ -224,11 +224,16 @@ header {
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
+#tips-box h2 {
+    text-shadow: 4px 4px 8px #ad5ec9;
+}
+
 #tips-box h3 {
     border: 3px solid #7240bf;
     border-radius: 20px;
     padding: 1rem;
     margin: 1rem;
+    text-shadow: 4px 4px 8px #ad5ec9;
 }
 
 #tips-box p {
@@ -262,6 +267,30 @@ header {
 
 #camera ol {
     padding: 2rem;
+}
+
+.halogreen {
+    text-shadow: 5px 5px 8px green;
+}
+
+.halopink {
+    text-shadow: 5px 5px 8px magenta;
+}
+
+.halowine {
+    text-shadow: 5px 5px 8px darkred;
+}
+
+.halored {
+    text-shadow: 5px 5px 8px red;
+}
+
+.haloblue {
+    text-shadow: 5px 5px 8px blue;
+}
+
+.halopurple {
+    text-shadow: 5px 5px 8px fuchsia;
 }
 
 /* styling for gallery page */
