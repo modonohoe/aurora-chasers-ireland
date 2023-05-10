@@ -214,7 +214,7 @@ header {
 } 
 
 
-/* styling for tips and resources page */
+/* styling for tips and resources page - future drop-down menu */ 
 
 #tips-box {
     padding: 1rem;
@@ -224,116 +224,44 @@ header {
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
-/* accordion - code derived from https://alvarotrigo.com/blog/css-accordion/ */
-
-#tips-box ul {
-    list-style: none;
-    perspective: 900;
-    padding: 0.5rem;
-    margin: 0.5rem;
+#tips-box h3 {
+    border: 3px solid #7240bf;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-#tips-box ul li {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 4px;
-    padding-top: 18px;
-    border-top: 1px solid #dce7eb;
-}
-
-#tips-box img {
-    width: 80%;
-    border-radius: 30px;
-    height: auto;
+#tips-box p {
     padding: 1rem;
 }
 
-#tips-box ul li:nth-of-type(1) {
-    animation-delay: 0.5s;
+#clickable-headings {
+    font-size: x-large;
+    justify-content: center;
 }
 
-#tips-box ul li:nth-of-type(2) {
-    animation-delay: 0.75s;
+#tips-box div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-#tips-box ul li:nth-of-type(3) {
-    animation-delay: 1s;
+#weather-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#tips-box ul li:last-of-type {
-    padding-bottom: 0;
+#weather-images img {
+    width: 40%;
+    min-width: 350px;
+    flex-grow: 1;
+    margin: 2rem;
+    border: 2px solid #462D5A;
+    border-radius: 30px;
 }
 
-#tips-box ul li i {
-    position: absolute;
-    transform: translate(-6px, 0);
-    margin-top: 16px;
-    right: 0;
-}
-
-  #tips-box ul li i:before, #tips-box ul li i:after {
-    content: "";
-    position: absolute;
-    background-color: #ad5ec9;
-    width: 3px;
-    height: 9px;
-}
-
-#tips-box ul li i:before {
-    transform: translate(-2px, 0) rotate(45deg);
-}
-
-#tips-box ul li i:after {
-    transform: translate(2px, 0) rotate(-45deg);
-}
-
-#tips-box ul li input[type=checkbox] {
-    position: absolute;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-}
-
-#tips-box ul li input[type=checkbox]:checked ~ p {
-    margin-top: 0;
-    max-height: 0;
-    opacity: 0;
-    transform: translate(0, 50%);
-  }
-
-#tips-box ul li input[type=checkbox]:checked ~ i:before {
-    transform: translate(2px, 0) rotate(45deg);
-}
-
-#tips-box ul li input[type=checkbox]:checked ~ i:after {
-    transform: translate(-2px, 0) rotate(-45deg);
-}
-  
-@keyframes flipdown {
-    0% {
-      opacity: 0;
-      transform-origin: top center;
-      transform: rotateX(-90deg);
-    }
-    5% {
-      opacity: 1;
-    }
-    80% {
-      transform: rotateX(8deg);
-    }
-    83% {
-      transform: rotateX(6deg);
-    }
-    92% {
-      transform: rotateX(-3deg);
-    }
-    100% {
-      transform-origin: top center;
-      transform: rotateX(0deg);
-    }
+#camera ol {
+    padding: 2rem;
 }
 
 /* styling for gallery page */
