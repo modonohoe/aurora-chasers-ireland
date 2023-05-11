@@ -184,7 +184,6 @@ header {
 
 #home-flexbox-text {
     width: 30%;
-    min-width: 450px;
     flex-grow: 1;
     background-color: #7240bf;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
