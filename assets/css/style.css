@@ -238,19 +238,19 @@ header {
 #clickable-headings {
     font-size: x-large;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: flex-start;
 }
 
 #clickable-headings a {
     padding: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
 }
 
 #clickable-headings a:hover {
     border: 1px groove whitesmoke;
     border-radius: 20px;
-    padding: 0.5rem;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
