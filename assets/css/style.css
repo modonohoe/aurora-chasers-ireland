@@ -575,6 +575,18 @@ footer a {
     }
 }
 
+@media (max-width: 450px) {
+
+    .social-networks li {
+        display: inline;
+        font-size: large;
+        text-decoration: none;
+        color: #9897b5;
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+}
+
 /* Tablets */
 @media screen and (max-width: 799px) {
     .hidden-mobile {
