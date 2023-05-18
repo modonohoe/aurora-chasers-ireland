@@ -122,11 +122,11 @@ header {
 /* hero image */
 
 #hero {
+    display: block;
     position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -135,13 +135,23 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-/* animation zoom effect on loading page */
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: backwards;
 }
+
+@media screen and (min-width: 1000px) {
+    .hidden-desktop {
+        display: none;
+    }
+}
+@media screen and (max-width: 999px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+    
+/* animation zoom effect on loading page */
 
 @keyframes hero-zoom {
     from{
