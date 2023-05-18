@@ -561,6 +561,20 @@ footer a {
 }
 
 /*---------- MEDIA QUERIES ----------*/
+
+/* Mobile */
+@media (max-width: 900px) {
+
+    #clickable-headings {
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+}
+
 /* Tablets */
 @media screen and (max-width: 799px) {
     .hidden-mobile {
