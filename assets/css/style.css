@@ -6,6 +6,7 @@
     border: none;
 }
 
+/*---------- TEXT ----------*/
 body {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 400;
@@ -20,9 +21,6 @@ h1 {
     color: #ad5ec9;
 }
 
-@media (max-width: 560px) {
-    h1 {font-size: 35px;}
-}
 
 h2, h3, h4 {
     letter-spacing: 0.2rem;
@@ -140,18 +138,8 @@ header {
     animation-fill-mode: backwards;
 }
 
-@media screen and (min-width: 800px) {
-    .hidden-desktop {
-        display: none;
-    }
-}
-@media screen and (max-width: 799px) {
-    .hidden-mobile {
-        display: none;
-    }
-}
     
-/* animation zoom effect on loading page */
+/* animation zoom effect on loading page adapted from Love Running project */
 
 @keyframes hero-zoom {
     from{
@@ -174,7 +162,7 @@ header {
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
 
-/* styling for home page content */
+/*---------- STYLING FOR HOME PAGE ----------*/
 
 #intro section {
     width: 100%;
@@ -207,8 +195,6 @@ header {
     border: 5px solid #462D5A;
 }
 
-/* flex box within flexbox for widgets */
-
 #home-flexbox-weather, #home-flexbox-solar {
     display: flex;
     min-width: 350px;
@@ -223,7 +209,7 @@ header {
 } 
 
 
-/* styling for tips and resources page - future drop-down menu */ 
+/*---------- STYLING FOR TIPS AND RESOURCES PAGE ----------*/ 
 
 #tips-box {
     padding: 1rem;
@@ -322,7 +308,7 @@ header {
     text-shadow: 1px 1px 1px fuchsia, 1px 1px 1px fuchsia, 1px -1px 1px fuchsia, -1px -1px 1px fuchsia;
 }
 
-/* styling for gallery page */
+/*---------- STYLING FOR GALLERY PAGE ----------*/
 
 #gallery-intro p {
     padding: 0.5rem 1rem;
@@ -372,7 +358,8 @@ header {
     box-shadow: 4px 4px 10px rgb(248, 111, 218);
 }
 
-/* styling for contact page - reference from https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/ */
+/*---------- STYLING FOR CONTACT PAGE ----------*/
+/* reference from https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/ */
 
 #forms-flexbox {
     display: flex;
@@ -501,7 +488,7 @@ fieldset {
 }
 
 
-/* styling for confirmation page for subscription and enquiry*/
+/*---------- STYLING FOR CONFIRMATION AND 404 PAGES ----------*/
 
 .confirmation {
     display: flex;
@@ -523,7 +510,7 @@ fieldset {
     flex: auto;
 }
 
-/* styling for footer */
+/*---------- STYLING FOR FOOTER ----------*/
 
 footer {
     width: 100%;
@@ -572,3 +559,25 @@ footer a {
     margin-bottom: 1px;
     color: #9897b5;
 }
+
+/*---------- MEDIA QUERIES ----------*/
+/* Tablets */
+@media screen and (max-width: 799px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    h1 {font-size: 35px;}
+}
+
+/* Laptops */
+@media screen and (min-width: 800px) {
+    .hidden-desktop {
+        display: none;
+    }
+}
+
+
+
