@@ -140,12 +140,12 @@ header {
     animation-fill-mode: backwards;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
     .hidden-desktop {
         display: none;
     }
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 799px) {
     .hidden-mobile {
         display: none;
     }
