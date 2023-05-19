@@ -91,8 +91,12 @@ As a user I would like:
 Trade-off: I determined that creating a section for accommodation and car rental options was less of a priority than the inclusion of solar and general weather information in this iteration of the website based on the table above.
 
 ### Structure and Skeleton
+Based on the target audience for this site (all ages, all backgrounds), it is important that the site is easy to navigate and will be in the form of a Hierarchical Tree Structure. The site will be intuitive with hover features and the navigation will be learnable with a consistent header and footer across all pages. The user will be assured by feedback when links are clicked.
 
 #### Wireframes
+The below wireframes for desktop and mobile devices show the balance between the various elements on each page. 
+
+We do not want to overwhelm them with choices when they visit the site (which could cause them to leave or become frustrated). With this in mind, page numbers will be kept to a minimum (less choice). There is a 404 page to redirect the user to the home page in case of an error.
 
 ### Features
 
