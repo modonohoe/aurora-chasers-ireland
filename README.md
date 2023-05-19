@@ -139,6 +139,14 @@ There is a 404 page to redirect the user to the home page in case of an error.
 ### Testing User Stories
 ### Bugs and Fixes
 
+Before adding a transparent border, when you hovered on a list item on the Tips & Resources page, it would 'jump' and shift elements around it:
+![Hero Image zoom](assets/images/jumping-menu.gif "Jumping Menu before")
+
+After, with transparent border applied:
+![Hero Image zoom](assets/images/stabilized-menu.gif "Stabilized Menu after")
+
+
+
 ## Deployment and Development
 The live link
 
