@@ -111,12 +111,14 @@ We do not want to overwhelm them with choices when they visit the site (which co
 #### Current Features Common To All Pages
 
 The logo
+
 ![Logo](assets/images/logo.gif "Logo")
 
 Nav bar
+
 ![Nav bar](assets/images/nav-bar.png "Nav bar")
 
-![Hero Image zoom](assets/images/hero-zoom-gif.gif "Hero Image zoom")
+
 
 ![Hero Image across screen sizes](assets/images/hero-image-gif.gif "Hero image across screen sizes")
 
