@@ -96,13 +96,13 @@ Based on the target audience for this site (all ages, all backgrounds), it is im
 #### Wireframes
 The below wireframes for desktop and mobile devices show the balance between the various elements on each page. 
 
-![Home page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-1.jpg)
+![Home page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-1.jpg "Home page")
 
-![Tips & Resources page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-2.jpg)
+![Tips & Resources page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-2.jpg "Tips & Resources page")
 
-![Gallery](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-3.jpg)
+![Gallery](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-3.jpg "Gallery")
 
-![Contact Us page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-4.jpg)
+![Contact Us page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-4.jpg "Contact Us page")
 
 We do not want to overwhelm them with choices when they visit the site (which could cause them to leave or become frustrated). With this in mind, page numbers will be kept to a minimum (less choice). 
 
@@ -110,9 +110,9 @@ We do not want to overwhelm them with choices when they visit the site (which co
 
 #### Current Features Common To All Pages
 header image
-![Hero Image zoom](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-zoom-gif.gif)
+![Hero Image zoom](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-zoom-gif.gif "Hero Image zoom")
 
-![Hero Image across screen sizes](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-image-gif.gif)
+![Hero Image across screen sizes](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-image-gif.gif "Hero image across screen sizes")
 
 #### Header
 #### Home Section
