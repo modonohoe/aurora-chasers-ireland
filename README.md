@@ -98,11 +98,11 @@ The below wireframes for desktop and mobile devices show the balance between the
 
 ![Home page](assets/images/wireframe-1.jpg "Home page")
 
-![Tips & Resources page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-2.jpg "Tips & Resources page")
+![Tips & Resources page](assets/images/wireframe-2.jpg "Tips & Resources page")
 
-![Gallery](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-3.jpg "Gallery")
+![Gallery](assets/images/wireframe-3.jpg "Gallery")
 
-![Contact Us page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-4.jpg "Contact Us page")
+![Contact Us page](assets/images/wireframe-4.jpg "Contact Us page")
 
 We do not want to overwhelm them with choices when they visit the site (which could cause them to leave or become frustrated). With this in mind, page numbers will be kept to a minimum (less choice). 
 
@@ -113,7 +113,7 @@ header image
 
 ![Hero Image zoom](assets/images/hero-zoom-gif.gif "Hero Image zoom")
 
-![Hero Image across screen sizes](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-image-gif.gif "Hero image across screen sizes")
+![Hero Image across screen sizes](assets/images/hero-image-gif.gif "Hero image across screen sizes")
 
 #### Header
 #### Home Section
