@@ -392,7 +392,6 @@ header {
     border: 2px solid black;
     border-radius: 20px;
     width: 40%;
-    min-width: 300px;
 }
 
 #forms2 div {
@@ -401,22 +400,47 @@ header {
 
 #goodbye-message {
     width: 100%;
+    flex-grow: 1;
     border: 1px solid black;
     border-radius: 20px;
     background-image: linear-gradient(to top right, #462D5A, black);
-    margin: 1rem 0;
-    padding: 3.2rem 0;
+    margin-top: 1rem;
+    padding: 3.3rem 0;
     text-align: center;
     font-family: 'Satisfy', cursive;
     font-size: xx-large;
 }
 
+.form-styling {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 #contact-us {
+    width: 100%;
     flex-grow: 1;
+    flex-direction: column;
+    display: flex;
     background-color: #7240bf;
     border-radius: 20px;
     padding: 1rem;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
+}
+
+
+.form-label {
+    text-align: end;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 35%;
+}
+
+.input-label {
+    text-align: start;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
 }
 
 #subscribe {
@@ -440,21 +464,23 @@ fieldset {
 }
 
 .input-styles-1 {
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
     padding: 0.5rem;
-    margin: 0.5rem;
-    width: 40%;
+    margin: 0.6rem;
 }
 
 .input-styles-2 {
+    display: flex;
+    flex-direction: column;
     font-family: sans-serif;
     font-weight: 300;
     font-size: medium;
     color: black;
     border-radius: 20px;
     padding: 0.5rem;
-    margin: 0.5rem;
-    width: 60%;
+    margin: 1rem;
+    width: 100%;
 }
 
 .submit {
@@ -465,8 +491,19 @@ fieldset {
     font-weight: bold;
     border: 2px solid #462D5A;
     border-radius: 20px;
-    margin: 0.5rem 0.5rem 0.5rem 2rem;
+    margin: 0.5rem;
     padding: 1rem;
+}
+
+.submit-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.robot {
+    margin: 0rem 1rem 1.5rem 1rem;
 }
 
 .input-styles-2:hover {
@@ -479,12 +516,13 @@ fieldset {
 
 .submit:hover {
     box-shadow: 5px 5px 10px rgb(248, 111, 218);
-    font-size: x-large;
+    background-color: #462D5A;
+    color: whitesmoke;
 }
 
 .submit:active {
-    background-color: #462D5A;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #462D5A;
 }
 
 
@@ -587,6 +625,26 @@ footer a {
     }
 }
 
+@media screen and (max-width: 390px) {
+
+    #forms-flexbox {
+        width: 80%;
+    }
+    
+    #forms, #forms2, #submit-section {
+        padding: 1px;
+    }
+
+    fieldset {
+        padding: 1px;
+    }
+
+    .form-label, .input-label, .input-styles-1, .input-styles-2  {
+        padding: 1px;
+        margin: 1px;
+    }
+}
+
 /* Tablets */
 @media screen and (max-width: 799px) {
     .hidden-mobile {
@@ -604,6 +662,13 @@ footer a {
         display: none;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #forms {
+        width: 100%;
+    }
+}
+
 
 
 

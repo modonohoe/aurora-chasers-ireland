@@ -48,17 +48,23 @@
                 <h2>Contact Us!</h2>
                 <fieldset class="form-styling">
                   <legend>Please leave your message in the form below:</legend>
-                      <label for="fname" class="input-styles-1">First name:</label>
-                      <input type="text" id="fname" name="fname" placeholder="e.g. John" required class="input-styles-2" aria-labelledby="first name"><br>
-                      <label for="lname" class="input-styles-1">Last name:</label>
-                      <input type="text" id="lname" name="lname" placeholder="e.g. Turner" required class="input-styles-2" aria-labelledby="last name"><br>
-                      <label for="email" class="input-styles-1">Email:</label>
-                      <input type="email" id="email" name="email" placeholder="e.g johnturner@gmail.com" required class="input-styles-2" aria-labelledby="email address"><br>
-                      <label for="textarea" class="input-styles-1">Your message / enquiry:</label>
-                      <textarea id="textarea" name="textarea" rows="6" cols="80" placeholder="type your message or enquiry here..." required class="input-styles-2" aria-labelledby="your message or enquiry"></textarea><br>
-                      <input type="checkbox" id="robot" name="robot" value="yes" required aria-labelledby="checkbox to confirm you are not a robot">
-                      <label for="robot" class="input-styles-1"> Check this box to confirm you are not a robot</label><br>
-                      <input type="submit" class="submit" value="Submit" aria-labelledby="submit button">
+                    <span class="form-label">
+                        <label for="fname" class="input-styles-1">First name:</label>
+                        <label for="lname" class="input-styles-1">Last name:</label>
+                        <label for="email" class="input-styles-1">Email:</label>
+                        <label for="textarea" class="input-styles-1">Your message / enquiry:</label>
+                    </span>
+                    <span class="input-label">
+                        <input type="text" id="fname" name="fname" placeholder="e.g. John" required class="input-styles-2" aria-labelledby="first name">
+                        <input type="text" id="lname" name="lname" placeholder="e.g. Turner" required class="input-styles-2" aria-labelledby="last name">
+                        <input type="email" id="email" name="email" placeholder="e.g johnturner@gmail.com" required class="input-styles-2" aria-labelledby="email address">
+                        <textarea id="textarea" name="textarea" rows="6" cols="80" placeholder="type your message or enquiry here..." required class="input-styles-2" aria-labelledby="your message or enquiry"></textarea>
+                    </span>
+                    <span class="submit-section">
+                        <input type="checkbox" class="robot" name="robot" value="yes" required aria-labelledby="checkbox to confirm you are not a robot">
+                        <label for="robot" class="input-styles-1"> Check this box to confirm you are not a robot</label>
+                        <input type="submit" class="submit" value="Submit" aria-labelledby="submit button">
+                    </span>
                 </fieldset>
             </form>
         </div>
@@ -67,17 +73,24 @@
             <div>
                 <form id="subscribe" action="subscribed.html">
                     <h2>Subscribe to our mailing list!</h2>
-                    <fieldset>
+                    <fieldset class="form-styling">
                     <legend>Fill in your details below to receive future updates from us:</legend>
-                        <label for="fname" class="input-styles-1">First name:</label>
-                        <input type="text" id="fname" name="fname" placeholder="e.g. John" required class="input-styles-2" aria-labelledby="first name"><br>
-                        <label for="lname" class="input-styles-1">Last name:</label>
-                        <input type="text" id="lname" name="lname" placeholder="e.g. Turner" required class="input-styles-2" aria-labelledby="last name"><br>
-                        <label for="email" class="input-styles-1">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="e.g johnturner@gmail.com" required class="input-styles-2" aria-labelledby="email address"><br>
-                        <input type="checkbox" id="robot" name="robot" value="yes" required aria-label="checkbox to confirm you are not a robot">
-                        <label for="robot" class="input-styles-1"> Check this box to confirm you are not a robot</label><br>
-                        <input type="submit" class="submit" value="Submit" aria-labelledby="submit button">
+                        <span class="form-label">
+                            <label for="fname" class="input-styles-1">First name:</label>
+                            <label for="lname" class="input-styles-1">Last name:</label>
+                            <label for="email" class="input-styles-1">Email:</label>
+
+                        </span>
+                        <span class="input-label">
+                            <input type="text" id="fname" name="fname" placeholder="e.g. John" required class="input-styles-2" aria-labelledby="first name">
+                            <input type="text" id="lname" name="lname" placeholder="e.g. Turner" required class="input-styles-2" aria-labelledby="last name">
+                            <input type="email" id="email" name="email" placeholder="e.g johnturner@gmail.com" required class="input-styles-2" aria-labelledby="email address">
+                        </span>
+                        <span class="submit-section">
+                            <input type="checkbox" class="robot" name="robot" value="yes" required aria-label="checkbox to confirm you are not a robot">
+                            <label for="robot" class="input-styles-1"> Check this box to confirm you are not a robot</label><br>
+                            <input type="submit" class="submit" value="Submit" aria-labelledby="submit button">
+                        </span>
                     </fieldset>
                 </form>
             </div>
