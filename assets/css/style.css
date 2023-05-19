@@ -708,6 +708,11 @@ footer a {
         justify-content: center;
     }
 
+    #weather-images img {
+        min-width: fit-content;
+        margin: 0.5rem;
+    }
+
 }
 
 /* Laptops */
