@@ -601,7 +601,7 @@ footer a {
 /*---------- MEDIA QUERIES ----------*/
 
 /* Mobile */
-@media (max-width: 900px) {
+@media (max-width: 950px) {
 
     #clickable-headings {
         font-size: x-large;

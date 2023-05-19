@@ -108,7 +108,6 @@ We do not want to overwhelm them with choices when they visit the site (which co
 
 ### Features
 
-There is a 404 page to redirect the user to the home page in case of an error.
 #### Current Features Common To All Pages
 header image
 #### Header
@@ -117,7 +116,7 @@ header image
 #### Gallery Section
 #### Contact Us Page
 #### Footer
-
+There is a 404 page to redirect the user to the home page in case of an error.
 ### Surface
 #### Color Scheme
 #### Color Contrast
