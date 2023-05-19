@@ -33,13 +33,13 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
         * [Language](#language)
         * [Framework and Tools](#framework-and-tools)
         * [Media](#media)
-4. [Testing and Validation](#testing-and-validation)
-        * [HTML](#html)
-        * [CSS](#css)
-        * [Accessibility and Performance](#accessibility-and-performance)
-        * [Browser Compatability](#browser-compatability)
-        * [Testing User Stories](#testing-user-stories)
-        * [Bugs and Fixes](#bugs-and-fixes)
+4. [**Testing and Validation**](#testing-and-validation)
+    * [HTML](#html)
+    * [CSS](#css)
+    * [Accessibility and Performance](#accessibility-and-performance)
+    * [Browser Compatability](#browser-compatability)
+    * [Testing User Stories](#testing-user-stories)
+    * [Bugs and Fixes](#bugs-and-fixes)
 5. [Deployment and Development](#deployment-and-development)
 6. [Credits](#credits)
 
@@ -96,13 +96,13 @@ Based on the target audience for this site (all ages, all backgrounds), it is im
 #### Wireframes
 The below wireframes for desktop and mobile devices show the balance between the various elements on each page. 
 
-![Home page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images)
+![Home page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-1.jpg)
 
-![Tips & Resources page](aurora-chasers-ireland/assets/images/wireframe-2.jpg)
+![Tips & Resources page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-2.jpg)
 
-![Gallery](aurora-chasers-ireland/assets/images/wireframe-3.jpg)
+![Gallery](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-3.jpg)
 
-![Contact Us page](aurora-chasers-ireland/assets/images/wireframe-4.jpg)
+![Contact Us page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-4.jpg)
 
 We do not want to overwhelm them with choices when they visit the site (which could cause them to leave or become frustrated). With this in mind, page numbers will be kept to a minimum (less choice). 
 
@@ -110,6 +110,10 @@ We do not want to overwhelm them with choices when they visit the site (which co
 
 #### Current Features Common To All Pages
 header image
+![Hero Image zoom](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-zoom-gif.gif)
+
+![Hero Image across screen sizes](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/hero-image-gif.gif)
+
 #### Header
 #### Home Section
 #### Tips and Resources Section 
