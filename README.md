@@ -45,30 +45,50 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
 
 ## Project Goals
 ### Site Owner Goals
+* To provide information on the possibility of seeing the NL in Ireland.
+* To provide links to resources which can help the user to see the NL.
+* To give advice to the user on how to capture photos of the NL.
 
 ### How This Will Be Achieved
+* The tips and resources page will be clear and concise.
+* Links to external sites which provide live information will be provided and where possible widgets will be embedded to save time.
+* There will be a Gallery page for users to enjoy images of the NL taken in Ireland.
+* There will be an option to subscribe to a monthly newsletter giving updates on the NL in Ireland.
+
 
 ## UX
 ### Strategy and Scope
 
 #### Target Audience
-    * 
-    *
-    *
-    *
+* Users who live in Ireland and would like general tips on how to see the NL in Ireland.
+* Users who are visiting Ireland and would like more information about where it is possible to see the NL here.
+* All age groups.
+* Users who wish to be kept updated on the NL in Ireland.
+
 
 #### User Stories
-    *
-    *
-    *
-    *
-    *
+As a user I would like: 
+* to know more about what the NL are and when it is possible to see them and photograph them.
+* to get some advice on where I should go to see the NL.
+* to know who is behind the page and if it is sponsored etc.
+* to be able to navigate the website intuitively and easily.
+* information to be concise and helpful as I may not have a lot of time to research.
+* I want to see examples of photos taken of the NL from Ireland.
+* the option to contact the owner and/or engage with any online communities related to the topic via social media links etc.
+* to see live updates about solar and general weather.
+
 
 #### User Requirements
 
-grid
+| Requirements        | Importance           | Viability  |
+| ------------- |:-----:| -----:|
+|Summary paragraphs of what the NL are, where to see them and how (photography tips).    | 5 | 5 |
+| Option to subscribe to a monthly newsletter with updates specific to Ireland.     | 3 | 5 |
+| Accommodation and car rental options available | 4 | 3 |
+| A gallery of images showcasing the NL as seen from Ireland      | 5 | 5 |
+| Information on solar and general weather in Ireland| 5 | 3 |
 
-trade-off
+Trade-off: I determined that creating a section for accommodation and car rental options was less of a priority than the inclusion of solar and general weather information in this iteration of the website based on the table above.
 
 ### Structure and Skeleton
 
