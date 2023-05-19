@@ -96,9 +96,9 @@ Based on the target audience for this site (all ages, all backgrounds), it is im
 #### Wireframes
 The below wireframes for desktop and mobile devices show the balance between the various elements on each page. 
 
-![Home page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-1.JPG "Home page")
+![Home page](https://github.com/modonohoe/aurora-chasers-ireland/main/assets/images/wireframe-1.jpg "Home page")
 
-![Tips & Resources page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-2.jpg "Tips & Resources page")
+![Tips & Resources page](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe2.jpg "Tips & Resources page")
 
 ![Gallery](https://github.com/modonohoe/aurora-chasers-ireland/tree/main/assets/images/wireframe-3.jpg "Gallery")
 
