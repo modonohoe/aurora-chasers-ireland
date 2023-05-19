@@ -96,10 +96,19 @@ Based on the target audience for this site (all ages, all backgrounds), it is im
 #### Wireframes
 The below wireframes for desktop and mobile devices show the balance between the various elements on each page. 
 
-We do not want to overwhelm them with choices when they visit the site (which could cause them to leave or become frustrated). With this in mind, page numbers will be kept to a minimum (less choice). There is a 404 page to redirect the user to the home page in case of an error.
+![Home page](../aurora-chasers-ireland/assets/images/wireframe-1.jpg)
+
+![Tips & Resources page](../aurora-chasers-ireland/assets/images/wireframe-2.jpg)
+
+![Gallery](../aurora-chasers-ireland/assets/images/wireframe-3.jpg)
+
+![Contact Us page](../aurora-chasers-ireland/assets/images/wireframe-4.jpg)
+
+We do not want to overwhelm them with choices when they visit the site (which could cause them to leave or become frustrated). With this in mind, page numbers will be kept to a minimum (less choice). 
 
 ### Features
 
+There is a 404 page to redirect the user to the home page in case of an error.
 #### Current Features Common To All Pages
 header image
 #### Header
