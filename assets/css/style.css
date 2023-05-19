@@ -627,11 +627,8 @@ footer a {
 
 @media screen and (max-width: 390px) {
 
-    #forms-flexbox {
-        width: 80%;
-    }
-    
-    #forms, #forms2, #submit-section {
+    #forms, #forms2, #submit-section{
+        margin: 0%;
         padding: 1px;
     }
 
@@ -639,13 +636,49 @@ footer a {
         padding: 1px;
     }
 
-    .form-label, .input-label, .input-styles-1, .input-styles-2  {
+    .form-label, .input-label, .input-styles-1 {
         padding: 1px;
-        margin: 1px;
+        margin: 1.5px;
+        font-size: small;
+    }
+
+    .input-styles-2 {
+        padding: 2px 1px 2px 1px;
+        margin: 1.5px;
+        font-size: small;
+    }
+
+    #textarea {
+        padding: 2px;
+    }
+
+    h2, legend {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #home-flexbox-weather, #home-flexbox-solar, #home-flexbox-weather div, #home-flexbox-solar div {
+        min-width: 300px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #home-flexbox, #home-flexbox div {
+        margin: 0.1rem;
+        padding: 0px;
     }
 }
 
 /* Tablets */
+
+@media screen and (max-width: 1290px) {
+
+    #home-flexbox-text {
+        width: 100vw;
+    }
+}
+
 @media screen and (max-width: 799px) {
     .hidden-mobile {
         display: none;
@@ -653,7 +686,28 @@ footer a {
 }
 
 @media (max-width: 560px) {
-    h1 {font-size: 35px;}
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+    #menu {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    #menu {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #header {
+        justify-content: center;
+    }
+
 }
 
 /* Laptops */
