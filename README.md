@@ -34,12 +34,6 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
         * [Framework and Tools](#framework-and-tools)
         * [Media](#media)
 4. [**Testing and Validation**](#testing-and-validation)
-    * [HTML](#html)
-    * [CSS](#css)
-    * [Accessibility and Performance](#accessibility-and-performance)
-    * [Browser Compatability](#browser-compatability)
-    * [Testing User Stories](#testing-user-stories)
-    * [Bugs and Fixes](#bugs-and-fixes)
 5. [Deployment and Development](#deployment-and-development)
 6. [Credits](#credits)
 
@@ -110,9 +104,9 @@ We do not want to overwhelm them with choices when they visit the site (which co
 
 #### Current Features Common To All Pages
 
-The logo
+The Title
 
-![Logo](assets/images/logo.gif "Logo")
+![Title](assets/images/title.gif "Title")
 
 Nav bar
 
@@ -123,10 +117,15 @@ Nav bar
 ![Hero Image across screen sizes](assets/images/hero-image-gif.gif "Hero image across screen sizes")
 
 #### Header
+
 #### Home Section
-#### Tips and Resources Section 
+
+#### Tips and Resources Section
+
 #### Gallery Section
+
 #### Contact Us Page
+
 #### Footer
 
 The footer contains links to Social Media pages when you hover on an icon it brightens and a shadow appears below it:
@@ -143,19 +142,6 @@ There is a 404 page to redirect the user to the home page in case of an error.
 #### Media
 
 ## Testing and Validation
-### HTML
-### CSS
-### Accessibility and Performance
-### Browser Compatability
-### Testing User Stories
-### Bugs and Fixes
-
-Initially, when you hovered on a list item on the Tips & Resources page, it would 'jump' and shift elements around it (pushing down the heading underneath for example):
-![Hero Image zoom](assets/images/jumping-menu.gif "Jumping Menu before")
-
-The menu after adding a transparent 'invisible' border:
-![Hero Image zoom](assets/images/stabilized-menu.gif "Stabilized Menu after")
-
 
 
 ## Deployment and Development
