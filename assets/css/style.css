@@ -680,6 +680,11 @@ footer a {
         margin: 0.1rem;
         padding: 0px;
     }
+
+    #flexbox-photos span {
+        min-width: 250px;
+    }
+
 }
 
 /* Tablets */
