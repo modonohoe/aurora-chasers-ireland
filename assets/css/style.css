@@ -174,15 +174,12 @@ header {
     justify-content: space-evenly;
 }
 
-#home-flexbox div {
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 35px;
-}
-
 #home-flexbox-text {
     width: 30%;
     flex-grow: 1;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 35px;
     background-color: #7240bf;
     box-shadow: 4px 4px 10px rgba(173,94,201,0.8);
 }
@@ -200,6 +197,9 @@ header {
     min-width: 350px;
     flex-direction: column;
     flex-grow: 1;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 35px;
     width: 22%;
     background-color: black
 }
@@ -670,19 +670,22 @@ footer a {
 }
 
 @media screen and (max-width: 450px) {
-    #home-flexbox-weather, #home-flexbox-solar, #home-flexbox-weather div, #home-flexbox-solar div {
-        min-width: 250px;
+    #home-flexbox-weather, #home-flexbox-solar, #home-flexbox-weather a p i article, #home-flexbox-solar a p i article {
+        min-width: 180px;
+        max-width: 300px;
         padding: 0px;
         margin: 0px;
     }
 
-    #home-flexbox, #home-flexbox div {
-        margin: 0.1rem;
-        padding: 0px;
+    #home-flexbox-text {
+        padding: 1rem;
+        margin: 1rem;
+        max-width: 300px;
     }
 
     #flexbox-photos span {
         min-width: 250px;
+        max-width: 280px;
     }
 
 }
