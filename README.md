@@ -1,5 +1,7 @@
 # Aurora Chasers Ireland
 
+![](assets/images "")
+
 ## Site Overview
 Aurora Chasers Ireland is an information site and resource hub for users who are trying to see the Northern Lights (NL) in Ireland. 
 
@@ -113,25 +115,42 @@ Nav bar
 ![Nav bar](assets/images/nav-bar.png "Nav bar")
 
 
+#### Header
 
 ![Hero Image across screen sizes](assets/images/hero-image-gif.gif "Hero image across screen sizes")
 
-#### Header
-
 #### Home Section
+
+![Home Page](assets/images/home-page.png "Home Page")
+
 
 #### Tips and Resources Section
 
+![Tips & Resources page](assets/images/tips-page.png "Tips & Resources page")
+
 #### Gallery Section
 
+![Gallery page](assets/images/gallery-screenshot.png "Gallery Page")
+
 #### Contact Us Page
+
+![Contact Us page](assets/images/contact-page.png "Contact Us page")
+
+![Confirmation page](assets/images/thank-you-page.png "Confirmation page")
 
 #### Footer
 
 The footer contains links to Social Media pages when you hover on an icon it brightens and a shadow appears below it:
+
 ![Footer](assets/images/footer.gif "Footer")
 
+
+
+
 There is a 404 page to redirect the user to the home page in case of an error.
+
+![404 page](assets/images/404-page.png "404 page")
+
 ### Surface
 #### Color Scheme
 #### Color Contrast
