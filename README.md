@@ -153,11 +153,25 @@ There is a 404 page to redirect the user to the home page in case of an error.
 
 ### Surface
 #### Color Scheme
+The color scheme was extracted in Adobe Color from the header image. I thought these would be exciting and appealing colors for the user. The background for all pages is black to reflect the night sky and to create a nice contrast.
+
+![Color Scheme](assets/images/color-scheme.jpg "Color Scheme")
+
 #### Color Contrast
+A contrast check for the color scheme was done using https://contrast-grid.eightshapes.com/ for accessibility.
+
+![Color Contrast](assets/images/color-contrast.jpg "Color Contrast")
+
+The colour was darkened on the contact page due to accessibility issues (more details in TESTING)
+
 #### Font
+
 #### Technologies Used
+
 #### Language
+
 #### Framework and Tools
+
 #### Media
 
 ## Testing and Validation
