@@ -659,7 +659,7 @@ footer a {
 
 @media screen and (max-width: 450px) {
     #home-flexbox-weather, #home-flexbox-solar, #home-flexbox-weather div, #home-flexbox-solar div {
-        min-width: 300px;
+        min-width: 250px;
         padding: 0px;
         margin: 0px;
     }
