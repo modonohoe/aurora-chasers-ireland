@@ -625,7 +625,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
 
     #forms, #forms2, #submit-section{
         margin: 0%;
@@ -639,13 +639,13 @@ footer a {
     .form-label, .input-label, .input-styles-1 {
         padding: 1px;
         margin: 1.5px;
-        font-size: small;
+        font-size: x-small;
     }
 
     .input-styles-2 {
         padding: 2px 1px 2px 1px;
         margin: 1.5px;
-        font-size: small;
+        font-size: x-small;
     }
 
     #textarea {
@@ -654,6 +654,10 @@ footer a {
 
     h2, legend {
         font-size: large;
+    }
+
+    footer p {
+        font-size: x-small;
     }
 }
 
