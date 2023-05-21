@@ -317,7 +317,7 @@ header {
 #flexbox-photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center space-evenly;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: flex-start;
 }
@@ -687,7 +687,7 @@ footer a {
 
     #flexbox-photos span {
         min-width: 250px;
-        max-width: 280px;
+        max-width: 440x;
     }
 
 }
