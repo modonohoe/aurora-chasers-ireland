@@ -670,17 +670,19 @@ footer a {
 }
 
 @media screen and (max-width: 450px) {
+
     #home-flexbox-weather, #home-flexbox-solar, #home-flexbox-weather a p i article, #home-flexbox-solar a p i article {
-        min-width: 180px;
-        max-width: 300px;
+        min-width: 240px;
+        width: 300px;
         padding: 0px;
         margin: 0px;
+        border: 0.5px solid transparent;
     }
 
     #home-flexbox-text {
         padding: 1rem;
         margin: 1rem;
-        max-width: 300px;
+        max-width: 100vw;
     }
 
     #flexbox-photos span {
