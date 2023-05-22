@@ -337,6 +337,7 @@ header {
 
 .img-container img {
     display: flex;
+    width: 100%;
     flex-grow: 1;
 }
 
