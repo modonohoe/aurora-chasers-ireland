@@ -350,7 +350,7 @@ header {
 
 }
     
-.gallery-item:hover {
+.gallery-item img:hover {
     box-shadow: 4px 4px 10px rgb(248, 111, 218);
 }
 
