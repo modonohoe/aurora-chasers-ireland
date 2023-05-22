@@ -746,17 +746,19 @@ footer a {
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max width: 1580px) {
     .gallery-item {
         flex-basis: 500px;
+        max
     }
     
 }
 
 
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1580x) {
     .gallery-item {
-        flex-basis: 550px;
+        min-width: 500px;
+        max-width: 650px;
     }
     
 }
