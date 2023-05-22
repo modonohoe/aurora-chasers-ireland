@@ -746,7 +746,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1580px) {
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
     .gallery-item {
         flex-basis: 500px;
     }
@@ -754,7 +754,7 @@ footer a {
 }
 
 
-@media screen and (min-width: 1581px) {
+@media screen and (min-width: 1600px) {
 
     .gallery-item {
         min-width: 500px;
