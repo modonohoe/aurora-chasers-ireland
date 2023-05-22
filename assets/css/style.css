@@ -755,4 +755,12 @@ footer a {
 }
 
 
+@media screen and (min-width: 1700px) {
+    .gallery-item {
+        width: 33vw;
+        flex-basis: 550px;
+    }
+    
+}
+
 
