@@ -319,14 +319,13 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    border: 1px solid pink;
+    border: 1px solid transparent;
 }
 
 .gallery-item {
     flex-basis: 400px;
     margin: 1rem;
     width: 30%;
-    border: 2px solid #462D5A;
     border-radius: 20px;
     flex-grow: 1;
     position: relative;
@@ -749,7 +748,8 @@ footer a {
 
 @media screen and (min-width: 1300px) {
     .gallery-item {
-        flex-basis: 400px;
+        width: 33vw;
+        flex-basis: 500px;
     }
     
 }
