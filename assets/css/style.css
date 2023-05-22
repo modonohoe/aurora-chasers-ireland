@@ -335,6 +335,8 @@ header {
 .gallery-item img {
     max-width: 100%;
     height: auto;
+    border: 2px solid #462D5A;
+    border-radius: 20px;
 }
 
 .overlay {
@@ -349,8 +351,7 @@ header {
 
 }
     
-
-#flexbox-photos .img-container:hover {
+.gallery-item:hover {
     box-shadow: 4px 4px 10px rgb(248, 111, 218);
 }
 
@@ -746,6 +747,12 @@ footer a {
     }
 }
 
+@media screen and (min-width: 1300px) {
+    .gallery-item {
+        flex-basis: 400px;
+    }
+    
+}
 
 
 
