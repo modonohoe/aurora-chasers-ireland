@@ -170,32 +170,26 @@ The colour was darkened on the contact page due to accessibility issues (more de
 
 I wanted the font to be rounded and very legible for the website but also have some character. All fonts were sourced from and imported using [Google Fonts](https://fonts.google.com/).
 
-⋅⋅1. ['Eczar'](https://fonts.google.com/specimen/Eczar/) is the title font
-⋅⋅2. ['IBM Plex Serif'](https://fonts.google.com/specimen/IBM+Plex+Serif) is used for all other headings and content. I really like the expressive italic and bold options in this style. 
-⋅⋅3. ['Satisfy'](https://fonts.google.com/specimen/Satisfy) is used for the homepage signature
+1. ['Eczar'](https://fonts.google.com/specimen/Eczar/) is the title font
+2. ['IBM Plex Serif'](https://fonts.google.com/specimen/IBM+Plex+Serif) is used for all other headings and content. I really like the expressive italic and bold options in this style. 
+3. ['Satisfy'](https://fonts.google.com/specimen/Satisfy) is used for the homepage signature
 
-'Serif' is the back-up font if 1 and 2 do not load. 'Cursive' is the back-up font for 3.
+'Serif' is the back-up if font 1 and 2 do not load. 'Cursive' is the back-up for font 3.
 
 #### Technologies Used
-HTML5 - Provides the content and structure for the website.
-CSS3 - Provides the styling for the website.
-Gitpod - Used to create and edit the website.
-Visual Studio Code - VSCode - Local editor to edit the website.
-GitHub - Used to host and deploy the website.
-Balsamiq - Used to create the wireframes.
 
-A Javascript script is being used for the Font Awesome icons used in the footer.
-
-Google Dev Tools - to troubleshoot issues and test responsivness through various screen sizes.
-
-Tiny PNG - to compress images.
-
-Favicon - to create favicon of the website.
-
-to generate color pallet.
-
-Google Fonts - to import the fonts used in the website.
-Am I Responsive? - to show responsivness of the website across multiple devices.
+* [Balsamiq](https://balsamiq.com/) to create the wireframes.
+* [HTML5](https://en.wikipedia.org/wiki/HTML) for the content and structure of the site.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for all styling on the site.
+* [Codeanywhere](https://codeanywhere.com/) IDE for editing the site.
+* [Github](https://github.com/) to host the repository and deploy the site.
+* [Font Awesome](https://fontawesome.com/) for icons (form of JS).
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
+* [Tiny PNG](https://tinypng.com/) to compress all images.
+* [Favicon](https://favicon.io/) where the site's favicon was sourced.
+* [Adobe Color](https://color.adobe.com/create/image) to generate the color palette.
+* [Google Fonts](https://fonts.google.com/) to source and import all fonts.
+* [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
 
 #### Media
 
