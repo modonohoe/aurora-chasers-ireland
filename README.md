@@ -50,6 +50,7 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
 * There will be a Gallery page for users to enjoy images of the NL taken in Ireland.
 * There will be an option to subscribe to a monthly newsletter giving updates on the NL in Ireland.
 
+********************
 
 ## UX
 ### Strategy and Scope
@@ -150,6 +151,8 @@ There is a 404 page to redirect the user to the home page in case of an error.
 
 ![404 page](assets/images/404-page.png "404 page")
 
+********************
+
 ### Surface
 #### Color Scheme
 The color scheme was extracted in Adobe Color from the header image. I thought these would be exciting and appealing colors for the user. The background for all pages is black to reflect the night sky and to create a nice contrast.
@@ -167,9 +170,9 @@ The colour was darkened on the contact page due to accessibility issues (more de
 
 I wanted the font to be rounded and very legible for the website but also have some character. All fonts were sourced from and imported using [Google Fonts](https://fonts.google.com/).
 
-    1. ['Eczar'](https://fonts.google.com/specimen/Eczar/) is the title font
-    2. ['IBM Plex Serif'](https://fonts.google.com/specimen/IBM+Plex+Serif) is used for all other headings and content. I really like the expressive italic and bold options in this style.
-    3. ['Satisfy'](https://fonts.google.com/specimen/Satisfy) is used for the homepage signature
+⋅⋅1. ['Eczar'](https://fonts.google.com/specimen/Eczar/) is the title font
+⋅⋅2. ['IBM Plex Serif'](https://fonts.google.com/specimen/IBM+Plex+Serif) is used for all other headings and content. I really like the expressive italic and bold options in this style. 
+⋅⋅3. ['Satisfy'](https://fonts.google.com/specimen/Satisfy) is used for the homepage signature
 
 'Serif' is the back-up font if 1 and 2 do not load. 'Cursive' is the back-up font for 3.
 
@@ -196,8 +199,11 @@ Am I Responsive? - to show responsivness of the website across multiple devices.
 
 #### Media
 
+********************
+
 ## Testing and Validation
 
+********************
 
 ## Deployment and Development
 The site was deployed to GitHub pages using the following steps:
@@ -209,8 +215,12 @@ The site was deployed to GitHub pages using the following steps:
 
 The live link can be found here - Live Website.
 
+********************
+
 ## Future Adaptations
 
 https://convertio.co/webp-jpg/
+
+********************
 
 ## Credits
