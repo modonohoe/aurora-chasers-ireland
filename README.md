@@ -141,13 +141,13 @@ The footer contains links to Social Media pages. When you hover on an icon it br
 
 The bottom right of the footer contains my name and LinkedIn profile if the user wishes to contact the site designer.
 
-#### Home Section
+### Home Section
 
 The home page gives the user an introduction to who Aurora Chasers Ireland. It features two widgets to give quick and easy access to realtime information about Metereological weather and Solar weather for returning users.
 
 ![Home Page](assets/images/home-page.png "Home Page")
 
-#### Tips and Resources Section
+### Tips and Resources Section
 
 The tips and reources page gives the user consise summarys about what the lights are, where is the best place to see them in Ireland and when. It provides advice for capturing images of the phenomenon and finally it links externally to other websites which may be of interest to the user.
 
@@ -155,7 +155,7 @@ I intended this page to have an expanding menu feature howvever this was not fea
 
 ![Tips & Resources page](assets/images/tips-page.png "Tips & Resources page")
 
-#### Gallery Section
+### Gallery Section
 
 The gallery contains beautiful images of Aurora Borealis taken from Ireland. I would love to include more images in the future (e.g. mobile phone images with permission). The photographer [Rita Wilson](https://www.ritawilsonphotography.com/) kindly gave me permission to use her images in this section. I also sourced images from [Shutterstock.com](https://www.shutterstock.com) and [iStock](https://www.istockphoto.com/). 
 
@@ -163,7 +163,7 @@ This page was created using the flex display and is fully responsive. An overlay
 
 ![Gallery page](assets/images/gallery-screenshot.png "Gallery Page")
 
-#### Contact Us Page
+### Contact Us Page
 
 The contact us page gives the user the option to give feedback to the site owners and/or subscribe to an (as-of-now) fictional newsletter. 
 
@@ -173,7 +173,7 @@ When a user submits their details a confirmation page (one for feedback, one for
 
 ![Confirmation page](assets/images/thank-you-page.png "Confirmation page")
 
-#### 404 Page
+### 404 Page
 
 There is a 404 page to redirect the user to the home page in case of an error.
 
@@ -212,12 +212,8 @@ I wanted the font to be rounded and very legible for the website but also have s
 * [CSS3](https://en.wikipedia.org/wiki/CSS) for all styling on the site.
 * [Codeanywhere](https://codeanywhere.com/) IDE for editing the site.
 * [Github](https://github.com/) to host the repository and deploy the site.
-* [Font Awesome](https://fontawesome.com/) for icons (form of JS).
 * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
 * [Tiny PNG](https://tinypng.com/) to compress all images.
-* [Favicon](https://favicon.io/) where the site's favicon was sourced.
-* [Adobe Color](https://color.adobe.com/create/image) to generate the color palette.
-* [Google Fonts](https://fonts.google.com/) to source and import all fonts.
 * [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
 
 #### Media
@@ -254,6 +250,11 @@ https://convertio.co/webp-jpg/
 ## Credits
 ---
 ### Media
+
+* [Favicon](https://favicon.io/) where the site's favicon was sourced.
+* [Adobe Color](https://color.adobe.com/create/image) to generate the color palette.
+* [Google Fonts](https://fonts.google.com/) to source and import all fonts.
+* [Font Awesome](https://fontawesome.com/) for the icons in the footer and throughout the site.
 
 ### Content
 
