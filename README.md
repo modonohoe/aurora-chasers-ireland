@@ -32,12 +32,11 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
         * [Color Contrast](#color-contrast)
         * [Font](#font)
         * [Technologies Used](#technologies-used)
-        * [Language](#language)
-        * [Framework and Tools](#framework-and-tools)
         * [Media](#media)
 4. [**Testing and Validation**](#testing-and-validation)
-5. [Deployment and Development](#deployment-and-development)
-6. [Credits](#credits)
+5. [**Deployment and Development**](#deployment-and-development)
+6. [**Future Adaptations**](#future-adaptations)
+7. [**Credits**](#credits)
 
 ## Project Goals
 ### Site Owner Goals
@@ -167,10 +166,25 @@ The colour was darkened on the contact page due to accessibility issues (more de
 #### Font
 
 #### Technologies Used
+HTML5 - Provides the content and structure for the website.
+CSS3 - Provides the styling for the website.
+Gitpod - Used to create and edit the website.
+Visual Studio Code - VSCode - Local editor to edit the website.
+GitHub - Used to host and deploy the website.
+Balsamiq - Used to create the wireframes.
 
-#### Language
+A Javascript script is being used for the Font Awesome icons used in the footer.
 
-#### Framework and Tools
+Google Dev Tools - to troubleshoot issues and test responsivness through various screen sizes.
+
+Tiny PNG - to compress images.
+
+Favicon - to create favicon of the website.
+
+to generate color pallet.
+
+Google Fonts - to import the fonts used in the website.
+Am I Responsive? - to show responsivness of the website across multiple devices.
 
 #### Media
 
@@ -178,6 +192,17 @@ The colour was darkened on the contact page due to accessibility issues (more de
 
 
 ## Deployment and Development
-The live link
+The site was deployed to GitHub pages using the following steps:
+
+1. In the GitHub repository, navigate to the Settings tab from the horizontal menu at the top of the page.
+2. Click the Settings tab and locate the Pages tab on the left menu which appears.
+3. Once you've selected your branch and root directory, click "Save" to deploy your website. GitHub will generate a URL (usually in the format username.github.io/repository-name).
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+
+The live link can be found here - Live Website.
+
+## Future Adaptations
+
+https://convertio.co/webp-jpg/
 
 ## Credits
