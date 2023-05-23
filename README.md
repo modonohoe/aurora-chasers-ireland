@@ -22,10 +22,10 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
         * [Wireframes](#wireframes)
     * [Features](#features)
         * [Current Features Common to All Pages](#current-features-common-to-all-pages)
-            * [Title](#title)
-            * [Hero Image](#hero-image)
-            * [Nav Bar](#nav-bar)
-            * [Footer](#footer)
+            * [1. Title](#title)
+            * [2. Hero Image](#hero-image)
+            * [3. Nav Bar](#nav-bar)
+            * [4. Footer](#footer)
         * [Home Section](#home-section)
         * [Tips and Resources Sections](#tips-and-resources-section)
         * [Gallery Section](#gallery-section)
@@ -119,19 +119,19 @@ We do not want to overwhelm users with choices when they visit the site (which c
 
 #### **Current Features Common To All Pages**
 
-##### **Title**
+##### **1. Title**
 
 The title 'Aurora Chasers Ireland' appears on all pages. As you can see in the image below it gives the user feedback when hovered over and returns to 'index.html' when clicked. 
 
 ![Title](assets/images/title.gif "Title")
 
-##### **Nav Bar**
+##### **2. Nav Bar**
 
 The horizontal Nav bar is fully responsive and on mobile devices displays as a vertical list. The active page displays as underlined and there is a shadow effect when the user hovers over any of the list items.
 
 ![Nav bar](assets/images/nav-bar.png "Nav bar")
 
-##### **Hero Image**
+##### **3. Hero Image**
 
 The hero image shows a photograph of the Northern Lights taken in Donegal (Malin Head) and was sourced from [Shutterstock.com](https://www.shutterstock.com). There is a zoom effect when a page opens for the first time. The zooming out creates a nice effect and is relevant to the theme of the website. It was inspired by the Love Running walkthrough project by Code Institute which I completed prior to this project.
 
@@ -139,7 +139,7 @@ The hero image was originally one file which grew and shrunk depending on the sc
 
 ![Hero Image](assets/images/hero-image-gif.gif)
 
-##### **Footer**
+##### **4. Footer**
 
 The footer contains links to Social Media pages. When you hover on an icon it brightens and a shadow appears below it.
 

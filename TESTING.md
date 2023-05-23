@@ -1,95 +1,70 @@
-# Testing Page Table of Contents
-* [**During Development Testing**](#during-development-testing)
-    * [*Manual Testing*](#manual-testing)
-    * [*Bugs and Fixes*](#bugs-and-fixes)
-* [**Post Development Testing**](#post-development-testing)
+# **Testing and Validation** 
+## **Table of contents:**
+---
+1. [**During Development Testing**](#during-development-testing)
+    * [Manual Testing](#manual-testing)
+    * [Bugs and Fixes](#bugs-and-fixes)
+2. [**Post Development Testing**](#post-development-testing)
   * [**Validators**](#validators)
-      * [*HTML*](#html---httpsvalidatorw3orgnu)
-      * [*CSS*](#css---httpsjigsaww3orgcss-validator)
+    * [HTML](#html---httpsvalidatorw3orgnu)
+    * [CSS](#css---httpsjigsaww3orgcss-validator)
   * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessibility**](#accessibility)
+    *  [Experte]()
+    *  [Wave]()
 
 ## **During Development Testing**
-During the development process, I was manually testing in the following ways:-
+---
+### **Manual Testing
+Throughout the development of my project, I manually tested the outcome of my code using the preview option in Codeanywhere using this command in the terminal:
+    python3 -m http.server
 
-1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
-    
-1. Published the page via GitHub pages and shared with fellow students to test and received feedback.
+I shared my deployed site with fellow students in the #peer-code-review channel on Code Institute's Slack community.
 
-1. Created a post on linked in and asked my network of over 400 developers to review the site and report any issues. The post was viewed more than 1200 times and no issues were reported back in the comments.
+My mentor gave me feedback during our planning sessions inlcuding identifying this UX issue I created when I accidentally removed a margin:
+![]()
 
-### ***Manual Testing:***
-* During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
+I viewed my website on the following browsers:
+1. Chrome
+2. Edge
+3. Firefox
 
-  1. Chrome
-  2. Firefox  
-  3. Opera
-  4. Edge
-
-* I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
-* In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
+The DevTools feature in Chrome allowed me to simulate and accomodate screen sizes from 300px upwards.
 
 ### ***Bugs and Fixes:***
 
-Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen widths from 320px to 4000px:-
+Here are a sample of the bugs I came across and how I addressed them while developing my site:
 
-1. **Intended Outcome** - A header with three evenly spaced out items across the header element.
-    * ***Issue Found:*** 
-        * Using float left and float right, I found the title stuck to the logo on the left despite using the clear command in the CSS .title selector.
-    * ***Solution Used:*** 
-        * Used CSS flex instead of float.
-1. **Intended Outcome** - Buttons of the navigation menu buttons to touch when active or hovered over whilst still having an adequate spacing between the text.
-    * ***Issue Found:*** 
-        * Initially using flex, I had the elements spaced evenly. When placing the elements contained in the navbar to the center they the text appeared to close together.
-    * ***Solution Used:***    
-        * I resolved this by using padding on the anchor tag text whilst keeping the elements centred using flex. 
-1. **Intended Outcome** - A fully responsive Nav bar suited to all screen sizes.
-    * ***Issue Found:*** 
-        * On smaller screen sizes, there was a horizontal scroll bar in the browsers dev tools.
-    * ***Solution Used***:
-        * Resolved by slightly reducing the font size in the nav-menu class. 
-        * Increasing the top and bottom padding by one 1px for the Nav-button class to maintain the background of the .active and nav-button: hover spanning from top to bottom of the navbar. 
-1. **Intended Outcome** - A hero image to span the entire width of the page and be fully responsive across all screen sizes.
-    * ***Issue Found:*** 
-        * Some images appeared pixelated when stretching to the required size.
-    * ***Solution Used:*** 
-        * In some cases, I found higher resolution versions of the image that resolved the issue. 
-        * In other cases, no higher resolution version of the selected image was available, and I had to choose a new image for the pages hero image.
-1. **Intended Outcome** - Aligned contact form with all elements looking uniform and neat.
-    * ***Issue Found:*** 
-        * When using CSS grid to align the form, I could not align the radio buttons and labels properly.
-    * ***Solution Used:***
-        * I wrapped inputs and labels from the mailing list section of the contact in a div element.
-1. **Intended Outcome** - When screen sizes exceed 768px in width, the two articles on the community page display side-by-side.
-    * ***Issue Found:***
-        * When getting to around 2600px, the heading would move to the side of the articles.
-    * ***Solution Used:***
-        * I split the page's content into separate sections, so the two articles were separate from the introduction paragraph with the heading "ways to connect in person". The way I divided the content later caused an issue on post-development testing that I will discuss later in this document.
-1. **Intended Outcome** - Social media link displayed in a line side by side in the footer.
-    * ***Issue Found:***
-        * One of my fellow students noted there was an underscore between elements. The underscore was due to the way I wrote the HTML with the parents and child elements onto separate lines to improve the readability of my documents.
-    * ***Solution Used:***
-        * By placing the anchor tag and the font awesome "i" tag on the same line, the underscore disappeared.
-1. **Intended Outcome** - A seamless transition between pages with the active tab and the hover feature looking smooth.
-    * ***Issue Found:***
-        * A fellow student pointed out that the nav buttons appeared to jump around when switching pages as the active tab switched from one button to the next.
-    * ***Solution Used:***
-        * By placing a transparent border around all nav-button elements, I resolved the issue.
-1. **Intended Outcome** - All Figure elements are fully responsive.
-    * ***Issue Found:***
-        * When increasing the screen size on the community page, I found that the figure elements in the last two articles and their contained images were increasing but not proportionately to each other.
-    * ***Solution Used:***
-        * Wrapping the last two figure elements on the community page in a div.
-1. **Intended Outcome** - Clear and consistent commit messages.
-    * ***Issue Found:***
-        * Looking back over my past commits, I found a Ghost author listed earlier in the commit history. A google search showed that this represented a deleted account.
-    * ***Solution Used:***
-        * There was no fix required. I found this issue was caused by using the VSCode app on my work laptop instead of GitPod IDE. I set up VSCode because I needed a way to work whilst offline during a flight to Scotland. It wasn't until I returned home and set VSCode up on my private laptop that I realized I made all commits during my trip using my work email and username set by default on VSCode which was preinstalled by my company. Once I updated my user details within VSCode, this ghost author appeared in the commits.  My work laptop somehow later restored my work email as the VSCode user during the project's final stages. However, I managed to link my work email to my Github account, thus preventing future inconsistencies in the author of a commit.
-2. **Intended Outcome** - Attractive form with space between the input fields and the border.
-    * ***Issue Found:***
-        * Using Firefox web browser, I noticed that the form fields spanned the entire background width, and the curved edges spilling slightly out of the frame.
-    * ***Solution Used:***
-        * This was resolved by adding some padding to the left and right of the input fields which then became uniform across all browsers.
+1. **Goal:** -
+    * **Issue:**:
+        * 
+    * **Solution:** 
+        * 
+2. **Goal:** -
+    * **Issue:**:
+        * 
+    * **Solution:** 
+        * 
+3. **Goal:** -
+    * **Issue:**:
+        * 
+    * **Solution:** 
+        * 
+4. **Goal:** -
+    * **Issue:**:
+        * 
+    * **Solution:** 
+        * 
+5. **Goal:** -
+    * **Issue:**:
+        * 
+    * **Solution:** 
+        * 
+6. **Goal:** -
+    * **Issue:**:
+        * 
+    * **Solution:** 
+        * 
     
 ## **Post Development Testing**
 ### **Validators**
