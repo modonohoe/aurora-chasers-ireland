@@ -10,8 +10,8 @@
         * [CSS](#css---httpsjigsaww3orgcss-validator)
         * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessibility**](#accessibility)
-        *  [Experte]()
-        *  [Wave]()
+        * [Experte]()
+        * [Wave]()
 
 ## **During Development Testing**
 ---
