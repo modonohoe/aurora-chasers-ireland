@@ -1,7 +1,4 @@
 # **Aurora Chasers Ireland**
-
-![](assets/images "")
-
 ## **Site Overview**
 Aurora Chasers Ireland is an information site and resource hub for users who are trying to see the Northern Lights (NL) in Ireland. 
 

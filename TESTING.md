@@ -5,19 +5,19 @@
     * [Manual Testing](#manual-testing)
     * [Bugs and Fixes](#bugs-and-fixes)
 2. [**Post Development Testing**](#post-development-testing)
-  * [**Validators**](#validators)
-    * [HTML](#html---httpsvalidatorw3orgnu)
-    * [CSS](#css---httpsjigsaww3orgcss-validator)
-  * [**Lighthouse Scores**](#lighthouse-scores)
+    * [**Validators**](#validators)
+        * [HTML](#html---httpsvalidatorw3orgnu)
+        * [CSS](#css---httpsjigsaww3orgcss-validator)
+        * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessibility**](#accessibility)
-    *  [Experte]()
-    *  [Wave]()
+        *  [Experte]()
+        *  [Wave]()
 
 ## **During Development Testing**
 ---
-### **Manual Testing
-Throughout the development of my project, I manually tested the outcome of my code using the preview option in Codeanywhere using this command in the terminal:
-    python3 -m http.server
+### **Manual Testing**
+Throughout the development phase, I manually tested the outcome of my code using the preview option in Codeanywhere using this command in the terminal:
+`python3 -m http.server`
 
 I shared my deployed site with fellow students in the #peer-code-review channel on Code Institute's Slack community.
 
@@ -31,37 +31,37 @@ I viewed my website on the following browsers:
 
 The DevTools feature in Chrome allowed me to simulate and accomodate screen sizes from 300px upwards.
 
-### ***Bugs and Fixes:***
+### **Bugs and Fixes:**
 
 Here are a sample of the bugs I came across and how I addressed them while developing my site:
 
 1. **Goal:** -
-    * **Issue:**:
+    * **Issue:**
         * 
     * **Solution:** 
         * 
 2. **Goal:** -
-    * **Issue:**:
+    * **Issue:**
         * 
     * **Solution:** 
         * 
 3. **Goal:** -
-    * **Issue:**:
+    * **Issue:**
         * 
     * **Solution:** 
         * 
 4. **Goal:** -
-    * **Issue:**:
+    * **Issue:**
         * 
     * **Solution:** 
         * 
 5. **Goal:** -
-    * **Issue:**:
+    * **Issue:**
         * 
     * **Solution:** 
         * 
 6. **Goal:** -
-    * **Issue:**:
+    * **Issue:**
         * 
     * **Solution:** 
         * 
