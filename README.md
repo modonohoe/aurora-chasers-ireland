@@ -124,6 +124,8 @@ The horizontal Nav bar is fully responsive and on mobile devices displays as a v
 
 The hero image shows a photograph of the Northern Lights taken in Donegal (Malin Head) and was sourced from [Shutterstock.com](https://www.shutterstock.com). There is a zoom effect when a page opens for the first time. The zooming out creates a nice effect and is relevant to the theme of the website. It was inspired by the Love Running walkthrough project by Code Institute which I completed prior to this project.
 
+The hero image was originally one file which grew and shrunk depending on the screen size, this caused performance issues with the browser and so a cropped version of the photo (showing the lights) is used for desktop and the full image (including the castle) will only appear on smaller screens.
+
 ![Hero Image](assets/images/hero-image-gif.gif)
 
 #### Home Section
