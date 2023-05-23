@@ -24,11 +24,13 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
             * [Title](#title)
             * [Hero Image](#hero-image)
             * [Nav Bar](#nav-bar)
+            * [Footer](#footer)
         * [Home Section](#home-section)
         * [Tips and Resources Sections](#tips-and-resources-section)
         * [Gallery Section](#gallery-section)
         * [Contact Us Page](#contact-us-page)
-        * [Footer](#footer)
+        * [404 Page](#404-page)
+
     * [Surface](#surface)
         * [Color Scheme](#color-scheme)
         * [Color Contrast](#color-contrast)
@@ -128,33 +130,47 @@ The hero image was originally one file which grew and shrunk depending on the sc
 
 ![Hero Image](assets/images/hero-image-gif.gif)
 
+##### Footer
+
+The footer contains links to Social Media pages. When you hover on an icon it brightens and a shadow appears below it.
+
+![Footer](assets/images/footer.gif "Footer")
+
+The bottom right of the footer contains my name and LinkedIn profile if the user wishes to contact the site designer.
+
 #### Home Section
+
+The home page gives the user an introduction to who Aurora Chasers Ireland. It features two widgets to give quick and easy access to realtime information about Metereological weather and Solar weather for returning users.
 
 ![Home Page](assets/images/home-page.png "Home Page")
 
-
 #### Tips and Resources Section
+
+The tips and reources page gives the user consise summarys about what the lights are, where is the best place to see them in Ireland and when. It provides advice for capturing images of the phenomenon and finally it links externally to other websites which may be of interest to the user.
+
+I intended this page to have an expanding menu feature howvever this was not feasible for me in this first iteration of the site (more detail provided in [Testing](#testing-and-validation)) and so I opted for a responsive menu with clickable in-page links. You can see in the image below a border appears when the user hovers over these links. The focus is to get the user access to the information as quickly and intuitively as possible.
 
 ![Tips & Resources page](assets/images/tips-page.png "Tips & Resources page")
 
 #### Gallery Section
 
+The gallery contains beautiful images of Aurora Borealis taken from Ireland. I would love to include more images in the future (e.g. mobile phone images with permission). The photographer [Rita Wilson](https://www.ritawilsonphotography.com/) kindly gave me permission to use her images in this section. I also sourced images from [Shutterstock.com](https://www.shutterstock.com) and [iStock](https://www.istockphoto.com/). 
+
+This page was created using the flex display and is fully responsive. An overlay describing where the image was taken and its author appear over each photo and a shadow effect appears when an image is hovered over.
+
 ![Gallery page](assets/images/gallery-screenshot.png "Gallery Page")
 
 #### Contact Us Page
 
+The contact us page gives the user the option to give feedback to the site owners and/or subscribe to an (as-of-now) fictional newsletter. 
+
 ![Contact Us page](assets/images/contact-page.png "Contact Us page")
+
+When a user submits their details a confirmation page (one for feedback, one for newsletter) appears to let them know their submission was received and offers to redirect the user back to the homepage.
 
 ![Confirmation page](assets/images/thank-you-page.png "Confirmation page")
 
-#### Footer
-
-The footer contains links to Social Media pages when you hover on an icon it brightens and a shadow appears below it:
-
-![Footer](assets/images/footer.gif "Footer")
-
-
-
+#### 404 Page
 
 There is a 404 page to redirect the user to the home page in case of an error.
 
