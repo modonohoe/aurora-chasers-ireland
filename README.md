@@ -8,6 +8,7 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
 ![Am I Responsive Screenshot](assets/images/am-i-responsive-screenshot.png "Am I Responsive Screenshot")
 
 ## Table of contents:
+---
 1. [**Site Overview**](#site-overview)
 2. [**Project Goals**](#project-goals)
     * [Site Owner Goals](#site-owner-goals)
@@ -43,6 +44,7 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
 7. [**Credits**](#credits)
 
 ## Project Goals
+---
 ### Site Owner Goals
 * To provide information on the possibility of seeing the NL in Ireland.
 * To provide links to resources which can help the user to see the NL.
@@ -57,6 +59,7 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
 ********************
 
 ## UX
+---
 ### Strategy and Scope
 
 #### Target Audience
@@ -179,6 +182,7 @@ There is a 404 page to redirect the user to the home page in case of an error.
 ********************
 
 ### Surface
+---
 #### Color Scheme
 The color scheme was extracted in Adobe Color from the header image. I thought these would be exciting and appealing colors for the user. The background for all pages is black to reflect the night sky and to create a nice contrast.
 
@@ -221,10 +225,12 @@ I wanted the font to be rounded and very legible for the website but also have s
 ********************
 
 ## Testing and Validation
+---
 
 ********************
 
 ## Deployment and Development
+---
 The site was deployed to GitHub pages using the following steps:
 
 1. In the GitHub repository, navigate to the Settings tab from the horizontal menu at the top of the page.
@@ -237,9 +243,11 @@ The live link can be found here - Live Website.
 ********************
 
 ## Future Adaptations
+---
 
 https://convertio.co/webp-jpg/
 
 ********************
 
 ## Credits
+---
