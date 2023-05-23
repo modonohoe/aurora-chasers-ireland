@@ -290,12 +290,12 @@ header {
 
 .halowine {
     color: black;
-    text-shadow: 1px 1px 1px red, 1px 1px 1px red, 1px -1px 1px red, -1px -1px 1px red;
+    text-shadow: 1px 1px 1px lightcoral, 1px 1px 1px lightcoral, 1px -1px 1px lightcoral, -1px -1px 1px lightcoral;
 }
 
 .halored {
     color: black;
-    text-shadow: 1px 1px 1px crimson, 1px 1px 1px crimson, 1px -1px 1px crimson, -1px -1px 1px crimson;
+    text-shadow: 1px 1px 1px lightsalmon, 1px 1px 1px lightsalmon, 1px -1px 1px lightsalmon, -1px -1px 1px lightsalmon;
 }
 
 .haloblue {
