@@ -227,6 +227,8 @@ I wanted the font to be rounded and very legible for the website but also have s
 ## Testing and Validation
 ---
 
+Details of testing during and post development are available in [TESTING.md](TESTING.md)
+
 ********************
 
 ## Deployment and Development
@@ -238,7 +240,7 @@ The site was deployed to GitHub pages using the following steps:
 3. Once you've selected your branch and root directory, click "Save" to deploy your website. GitHub will generate a URL (usually in the format username.github.io/repository-name).
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-The live link can be found here - Live Website.
+The live link can be found here - [Aurora Chasers Ireland](https://modonohoe.github.io/aurora-chasers-ireland/).
 
 ********************
 
@@ -250,4 +252,12 @@ https://convertio.co/webp-jpg/
 ********************
 
 ## Credits
+---
+### Media
+
+### Content
+
+### Code
+
+### Acknowledgements
 ---
