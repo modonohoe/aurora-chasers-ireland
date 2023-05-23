@@ -31,17 +31,19 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
         * [Gallery Section](#gallery-section)
         * [Contact Us Page](#contact-us-page)
         * [404 Page](#404-page)
-
     * [Surface](#surface)
         * [Color Scheme](#color-scheme)
         * [Color Contrast](#color-contrast)
         * [Font](#font)
         * [Technologies Used](#technologies-used)
-        * [Media](#media)
 4. [**Testing and Validation**](#testing-and-validation)
 5. [**Deployment and Development**](#deployment-and-development)
 6. [**Future Adaptations**](#future-adaptations)
 7. [**Credits**](#credits)
+    * [Media](#media)
+    * [Content](#content)
+    * [Code](#code)
+    * [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 ---
@@ -216,8 +218,6 @@ I wanted the font to be rounded and very legible for the website but also have s
 * [Tiny PNG](https://tinypng.com/) to compress all images.
 * [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
 
-#### Media
-
 ********************
 
 ## Testing and Validation
@@ -242,6 +242,10 @@ The live link can be found here - [Aurora Chasers Ireland](https://modonohoe.git
 
 ## Future Adaptations
 ---
+
+•	Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product, which is this project.
+•	I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
+
 
 https://convertio.co/webp-jpg/
 
