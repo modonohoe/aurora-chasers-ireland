@@ -212,7 +212,7 @@ Here are the scores I received for the desktop version of each page and:
 
     ![lighthouse score for contact](assets/images/testing_imgs/lighthouse-contact.jpg)
 
-My performance scores on mobile greatly vary depending on device and screen-size. Again this mostly relates to my image format. This is something I discovered very late into my development so I am happy to leave this as unresolved for now rather than redo my image files and pathways in case this results in error.
+My performance scores on mobile greatly vary depending on device and screen-size. Again this mostly relates to my image format. This is something I discovered very late into my development so I am happy to leave this as unresolved for now rather than redo my image files and pathways.
   
 ### **Accessibility**
 
@@ -221,6 +221,8 @@ I am satisfied with my accessibility scores from Lighthouse. I have also mention
 ![experte.com score](assets/images/testing_imgs/experte-after.jpg)
 
 My Web Accessibility Evaluation Tool ['WAVE' result](https://wave.webaim.org/report#/https://modonohoe.github.io/aurora-chasers-ireland) shows no errors (except for flagging underlined text it was unsure were links, which are links so this is fine). It also highlighted a color contrast issue but this is unseen and is identified as being part of the Twitter widgets. 
+
+![WAVE error](assets/images/testing_imgs/wave-results.jpg)
 
 All other pages have no flags or errors reported.
 
