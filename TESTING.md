@@ -6,10 +6,10 @@
     * [Bugs and Fixes](#bugs-and-fixes)
 2. [**Post Development Testing**](#post-development-testing)
     * [**Validators**](#validators)
-        * [HTML](#html---httpsvalidatorw3orgnu)
-        * [CSS](#css---httpsjigsaww3orgcss-validator)
-        * [**Lighthouse Scores**](#lighthouse-scores)
-  * [**Accessibility**](#accessibility)
+        * [HTML](#html)
+        * [CSS](#css)
+        * [Lighthouse Scores](#lighthouse-scores)
+    * [**Accessibility**](#accessibility)
         * [Experte]()
         * [Wave]()
 
@@ -35,7 +35,7 @@
 - I asked friends and family members to view my site often and provide feedback.
 
 ### **Bugs and Fixes:**
-(assets/images/testing_imgs/)
+
 Here are a sample of the bugs I came across and how I addressed them while developing my site:
 
 1. **Goal:** Maintain GitHub contributions daily
@@ -115,24 +115,59 @@ Here are a sample of the bugs I came across and how I addressed them while devel
 
     * **Issue:**
         * I created the menu following a tutorial using only CSS. When I checked the accessibility of this menu, DevTools said it was not compliant for screen readers.
+    
+    ![Accordion Score](assets/images/testing_imgs/accordion-score.jpg)
+
     * **Solution:** 
         * I decided not to keep it and create a JavaScript version in the future.
 
+9. **Goal:** Style the menu for Tips & Resources to appear 'button-like'
+
+    * **Issue:** 
+        * Initially, when you hovered on a list item on the Tips & Resources page, it would 'jump' and shift elements around it (pushing down the heading underneath for example):
+    
+    ![Hero Image zoom](assets/images/jumping-menu.gif "Jumping Menu before")
+    
+    * **Solution:** 
+        * The menu after adding a transparent 'invisible' border
+
+    ![Hero Image zoom](assets/images/stabilized-menu.gif "Stabilized Menu after")
 
 ## **Post Development Testing**
 ### **Validators**
 
-#### ***HTML*** - https://validator.w3.org/nu/
+#### **HTML** 
 
-* ***Issue Found:***
-    * My solution to point 6 of the "During Development Testing" section cause an error because I used a semantic tag ("section") on the community page with no heading. I had originally split the page into three sections leaving the two articles in a section by themselves. 
-* ***Solution Used:***
-    * I extended the section tag with the ID "ways-to-connect" to include the articles on the page and changed the third section tag containing the two articles into a div element within #ways-to-connect. All pages now return no error.
+The W3C Markup Validation Service: [W3C HTML](https://validator.w3.org/)
 
-#### ***CSS*** - https://jigsaw.w3.org/css-validator/
+A number of issues were highlighted during this process.
 
-* All pages tested, no issues found via URL or file upload.\
-![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
+##### index.html
+![](assets/images/testing_imgs/index-html-validation.jpg)
+
+###### tips_and_resources.html
+![](assets/images/testing_imgs/tips-html-validation.jpg)
+![](assets/images/testing_imgs/syntax-html-issue.jpg)
+
+##### gallery.html
+![](assets/images/testing_imgs/gallery-section-issue.jpg)
+![](assets/images/testing_imgs/gallery-html-validation.jpg)
+
+The HTML on all other pages showed no issues. 
+
+Once I had addressed all of the issues highlighted as above, I ran all of my pages through the validator again and there were no issues detected.
+
+![](assets/images/testing_imgs/html-validation.jpg)
+
+
+#### **CSS** 
+
+The W3C CSS Validation Service: [W3C CSS](https://jigsaw.w3.org/css-validator/)
+
+* No issues were found.
+
+![W3C CSS](assets/images/testing_imgs/CSS-validation.jpg)
+
 
 ### **Lighthouse Scores**
 ### **Test conditions**
