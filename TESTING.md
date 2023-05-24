@@ -142,22 +142,41 @@ The W3C Markup Validation Service: [W3C HTML](https://validator.w3.org/)
 
 A number of issues were highlighted during this process.
 
-##### index.html
-![](assets/images/testing_imgs/index-html-validation.jpg)
+1. index.html
 
-###### tips_and_resources.html
-![](assets/images/testing_imgs/tips-html-validation.jpg)
-![](assets/images/testing_imgs/syntax-html-issue.jpg)
+    ![Index HTML issues](assets/images/testing_imgs/index-html-validation.jpg)
 
-##### gallery.html
-![](assets/images/testing_imgs/gallery-section-issue.jpg)
-![](assets/images/testing_imgs/gallery-html-validation.jpg)
+    To resolve the issues above:
+    - I removed the 'section' tag and replaced it with a 'div' (this div contains the hero image)
+    - For issues 3 and 4 I had mistakenly closed a 'h2' with a 'h3' instead despite scanning over the HTML myself I missed this.
+    - Issues 4 and 6 were created by imported HTML in the Twitter widgets. The obsolete values were removed.
+
+2. tips_and_resources.html
+
+    ![Tips and Resources issues](assets/images/testing_imgs/tips-html-validation.jpg)
+
+    To resolve the issues above:
+    - I discovered I was not consistently closing my tags correctly. I revised nesting rules and fixed my inconsistencys.
+
+    While editing this page, I had gone back and re-inserted tags which sometimes led to the IDE adding extra closing tags automatically which I didn't notice at the time:
+
+    ![Syntax issues](assets/images/testing_imgs/syntax-html-issue.jpg)
+
+3. gallery.html
+
+    ![Gallery section issue](assets/images/testing_imgs/gallery-section-issue.jpg)
+
+    This first issue relates to the fact that I put my Gallery heading in a seperate section to my Gallery images as I was worried the flex display would become distorted. I replaced the 'section' tag with a 'div' tag for the images in my Gallery.
+
+    ![Incorrect use of paragraph](assets/images/testing_imgs/gallery-html-validation.jpg)
+
+    While designing my Gallery, I encountered many issues. At one point during the development I had inserted paragraphs into the Gallery. In the deployed version of my website, all of my Gallery containers are 'divs', however, at one point they were paragraphs which was incorrect and highlighted by the validator.
 
 The HTML on all other pages showed no issues. 
 
 Once I had addressed all of the issues highlighted as above, I ran all of my pages through the validator again and there were no issues detected.
 
-![](assets/images/testing_imgs/html-validation.jpg)
+![HTML validation clear](assets/images/testing_imgs/html-validation.jpg)
 
 
 #### **CSS** 
