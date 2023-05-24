@@ -21,8 +21,8 @@ Throughout the development phase, I manually tested the outcome of my code using
 
 I shared my deployed site with fellow students in the #peer-code-review channel on Code Institute's Slack community.
 
-My mentor gave me feedback during our planning sessions inlcuding identifying this UX issue I created when I accidentally removed a margin:
-![]()
+My mentor gave me feedback during our 3 PP1 sessions - inlcuding identifying this UX issue I created when I accidentally removed a margin:
+![Margin error for mobile](assets/images/testing_imgs/margin-error.jpg)
 
 I viewed my website on the following browsers:
 1. Chrome
@@ -32,40 +32,63 @@ I viewed my website on the following browsers:
 The DevTools feature in Chrome allowed me to simulate and accomodate screen sizes from 300px upwards.
 
 ### **Bugs and Fixes:**
-
+(assets/images/testing_imgs/)
 Here are a sample of the bugs I came across and how I addressed them while developing my site:
 
-1. **Goal:** -
+1. **Goal:** Maintain GitHub contributions daily
+    ![GitHub contributions](assets/images/testing_imgs/git-history-issue.jpg)
     * **Issue:**
-        * 
+        * During my development phase, I had to change workspace when I ran out of Codeanywhere hours. Luckily my workspace was all saved and up to date and so creating a new workspace was not an issue. However, I noticed after a few days my contributions were not being counted on my GitHub account. I reached out to the Slack community and was reminded to run the following commands when opening each new workspace - not just at the beginning of project.
     * **Solution:** 
-        * 
-2. **Goal:** -
+        * `git config --global user.name "MEGAN ODONOHOE"`
+        * `git config --global user.email "MEGANODT@gmail.com"`
+2. **Goal:** Create a nav bar menu that shows pages in order of importance
+    ![Flex direction](assets/images/testing_imgs/row-reverse.jpg)
     * **Issue:**
-        * 
+        * Initally my menu was not displaying in order of importance
     * **Solution:** 
-        * 
-3. **Goal:** -
+        * I researched the Flex property extensively throughout my project and learned this could be addressed by assigning `flex-direction: row-reverse;` in CSS.
+3. **Goal:** create a responsive title 
+    ![Overlapping title](assets/images/testing_imgs/overlapping-title.jpg)
     * **Issue:**
-        * 
+        * Initially, on mobile devices the title would overlap and I had difficulty assigning any padding or gap to seperate the overlapped words.
     * **Solution:** 
-        * 
-4. **Goal:** -
+        * The line-height property `line-height: 1;` and `text-align: center` to display the title better for UX.
+4. **Goal:** Display both forms on the contact page side-by-side with a smaller "goodbye message" below the secod smaller form. The forms and message should 'click' together and align vertically on smaller screen sizes.
+    ![Flex issue](assets/images/testing_imgs/contact-us-flex-issue.jpg)
     * **Issue:**
-        * 
+        * I could not get the "goodbye" message to display below the second form as seen above.
     * **Solution:** 
-        * 
-5. **Goal:** -
+        * Creating a "flexbox within a flexbox" solved the issue and is not something I had considered. When I was using a single flexbox, you could not combine 'X' and 'Y' access displays. There needed to be two seperate flexboxs - one with `flex-direction: row;` and the other `flex-direction: column;` 
+5. **Goal:** Display the Twitter widgets responsively on mobile devices
+    ![Overlapping widgets](assets/images/testing_imgs/overlapping-widgets.jpg)
     * **Issue:**
-        * 
+        * When viewing the homepage on smaller screens, the twitter widgets would overlap.
     * **Solution:** 
-        * 
-6. **Goal:** -
+        * I assigned an auto width to the widgets (when importing them initally from twitter I chose 300px which I would not do in future because later I was not able to leave a margin or padding on smaller screens as a result) For screens larger than 300px I assigned `min-width: 350px` to the flexbox containing each widget to solve the ovelapping issue.
+6. **Goal:** Use light purple background for mailing list form
+    ![Mailing list before](assets/images/testing_imgs/mailing%20list%20before.jpg)
     * **Issue:**
-        * 
+        * When creating the mailing list, the contrast appeared fine but DevTools highlighted the issue to me.
+    ![Mailing list contrast issue](assets/images/testing_imgs/contrast-issue.jpg)
     * **Solution:** 
-        * 
-    
+        * I darkened the purple shade in using Codeanywhere's HEX preview by hovering over the current color and then selecting a darker hue #9a23c6
+    ![Mailing list after](assets/images/testing_imgs/mailing-list-after.jpg)
+7. **Goal:** Use shadow colors that match the word in the text over a purple background
+    * **Issue:**
+        * The Experte accessibility validation drew my attention to the following contrast error
+    ![Mailing list after](assets/images/testing_imgs/experte-fail.jpg)
+    * **Solution:** 
+        * I compromised on the red colours and opted for 'lightsalmon'and 'lightcoral' instead of true red as this is not accessible in the situation.
+    ![Experte Solution](assets/images/testing_imgs/experte-solution.jpg)
+8. **Goal:** Create an expandable menu feature in my tips and resources section
+    ![Expandable menu](assets/images/testing_imgs/expandable-tips-menu.jpg)
+    * **Issue:**
+        * I created the menu following a tutorial using only CSS. When I checked the accessibility of this menu, DevTools said it was not compliant for screen readers.
+    * **Solution:** 
+        * I decided not to keep it and create a JavaScript version in the future.
+
+
 ## **Post Development Testing**
 ### **Validators**
 
