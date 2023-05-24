@@ -42,6 +42,8 @@ Aurora Chasers Ireland is an information site and resource hub for users who are
     * [Code](#code)
     * [Acknowledgements](#acknowledgements)
 
+********************
+
 ## **Project Goals**
 ---
 ### **Site Owner Goals**
@@ -212,6 +214,7 @@ I wanted the font to be rounded and very legible for the website but also have s
 
 'Serif' is the back-up if font 1 and 2 do not load. 'Cursive' is the back-up for font 3.
 
+
 #### **Technologies Used**
 
 * [Balsamiq](https://balsamiq.com/) to create the wireframes.
@@ -222,6 +225,7 @@ I wanted the font to be rounded and very legible for the website but also have s
 * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test ideas
 * [Tiny PNG](https://tinypng.com/) to compress all images.
 * [Am I Responsive?](https://ui.dev/amiresponsive) to generate an image showing responsivness of the site across multiple devices.
+* [Eight Shapes](https://contrast-grid.eightshapes.com/) for color contrast.
 
 ********************
 
@@ -247,12 +251,11 @@ The live link can be found here - [Aurora Chasers Ireland](https://modonohoe.git
 
 ## **Future Adaptations**
 ---
-
-•	Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product, which is this project.
-•	I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
-
-
-https://convertio.co/webp-jpg/
+In the future I would like to include:
+- an expandable menu using Javascript.
+- a hamburger menu on this website using JavaScript.
+- more images and using different formats for these using a different conversion tool (e.g [Convertio.co](https://convertio.co/jpg-webp/) ).
+- a fully functioning form with a post request and have a database to collate data for the mailing list.
 
 ********************
 
@@ -260,14 +263,35 @@ https://convertio.co/webp-jpg/
 ---
 ### **Media**
 
+* [Rita Wilson](https://www.ritawilsonphotography.com/) for giving me permission to showcase her beautiful images of the Northern Lights, [Shutterstock.com](https://www.shutterstock.com) and [iStock](https://www.istockphoto.com/).
 * [Favicon](https://favicon.io/) where the site's favicon was sourced.
 * [Adobe Color](https://color.adobe.com/create/image) to generate the color palette.
 * [Google Fonts](https://fonts.google.com/) to source and import all fonts.
 * [Font Awesome](https://fontawesome.com/) for the icons in the footer and throughout the site.
+* [Twitter Publish](https://publish.twitter.com/) for the embedded Twitter content.
 
 ### **Content**
 
+Text content was written by Megan O'Donohoe and (Damien Moreau)[https://www.linkedin.com/in/damien-moreau-2a3386100/]. With reference to content from the [National Oceanic and Atmospheric Association](https://www.swpc.noaa.gov/content/tips-viewing-aurora). 
+
 ### **Code**
 
+* The code for the social media links in the footer and the hero zoom effect were adapted from Code Institute's [Love Running Walkthrough Project](https://github.com/Code-Institute-Org/love-running-2.0)
+* [W3Schools](https://www.w3schools.com/)
+* [Stack Overflow](https://stackoverflow.co/)
+* I consulted my notes from Code Institute's lessons on HTML and CSS.
+* [Kevin Powell's video](https://youtu.be/u044iM9xsWU) for help with Flexbox.
+* [Log Rocket](https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/)'s blog influenced my form styling.
+* [Dan Morriss](https://github.com/DanMorriss/collaborative-project1)'s section of our cohort's collaborative project influenced my decision to choose a gradient background on the contact.html page.
+
 ### **Acknowledgements**
----
+
+* Damien Moreau, my partner, for supporting me throughout this project. Helping me write the content on the Tips & Resources page, testing my website and generally listening to me talking or complaining about my first website. A lot. 
+
+* The Code Institute Slack community who are always there to help and give suggestions and feedback. Particularly the 'peer-code-review' channel.
+
+* My mentor Can Sücüllü for all of your guidance, advice, encouragement, recommendations and feedback. 
+
+* Team 'Livin' La Vida Yoda' from Code Institute's May Hackathon. Special mention to [Kera Cudmore](https://github.com/kera-cudmore) who generously helped us when we struggled with GitHub throughout the collaborative process. This experiences developed my skills and patience as a developer greatly.
+
+[Return to top](#table-of-contents)
