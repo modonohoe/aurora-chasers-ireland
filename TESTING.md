@@ -10,8 +10,6 @@
         * [CSS](#css)
         * [Lighthouse](#lighthouse)
     * [**Accessibility**](#accessibility)
-        * [Experte]()
-        * [Wave]()
 
 ## **During Development Testing**
 ---
@@ -192,52 +190,34 @@ The W3C CSS Validation Service: [W3C CSS](https://jigsaw.w3.org/css-validator/)
 
 I used the Lighthouse Validator in Chrome DevTools site-wide. As mentioned already, Lighthouse helped me to identify that my expandable menu was not accessible.
 
-Here are the scores I received for the desktop version of each page:
+Here are the scores I received for the desktop version of each page and:
 
-![](assets/images/testing_imgs/lighthouse-index.jpg)
+1. index.html
+    ![lighthouse score for index](assets/images/testing_imgs/lighthouse-index.jpg)
 
-![](assets/images/testing_imgs/lighthouse-tips.jpg)
+2. tips_and_resources.html
+    ![lighthouse score for tips](assets/images/testing_imgs/lighthouse-tips.jpg)
 
-![](assets/images/testing_imgs/lighthouse-gallery.jpg)
+3. gallery.html
+    ![lighthouse score for gallery](assets/images/testing_imgs/lighthouse-gallery.jpg)
 
-![](assets/images/testing_imgs/ligh)
+    The performance score is not what I would like it to be on this page and I did some research into the issues highlighted. For future projects I will use 'next-gen' formats for my images. 
 
+    ![lighthouse feedback for images](assets/images/testing_imgs/next-gen-formats.jpg)
 
-![](assets/images/testing_imgs/next-gen-formats.jpg)
+4. contact.html
+    ![lighthouse score for contact](assets/images/testing_imgs/lighthouse-contact.jpg)
 
-
-
-
+My performance scores on mobile greatly vary depending on device and screen-size. Again this mostly relates to my image format. This is something I discovered very late into my development so I am happy to leave this as unresolved for now rather than redo my image files and pathways in case this results in error.
   
 ### **Accessibility**
-In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
-***   
-[return to README.md](README.md)    * [HTML](#html)
-    * [CSS](#css)
-    * [Accessibility and Performance](#accessibility-and-performance)
-    * [Browser Compatability](#browser-compatability)
-    * [Testing User Stories](#testing-user-stories)
-    * [Bugs and Fixes](#bugs-and-fixes)### HTML
 
-###
-testing throughout
-feedback on language UX etc
+I am satisfied with my accessibility scores from Lighthouse. I have also mentioned the issues highlighted to me by [Experte.com](https://www.experte.com/accessibility) accessibility validator above (contrast issue). Once this was resolved, it could not identify any other issues.
 
-e.g. success
+![experte.com score](assets/images/testing_imgs/experte-after.jpg)
 
+My Web Accessibility Evaluation Tool ['WAVE' result](https://wave.webaim.org/report#/https://modonohoe.github.io/aurora-chasers-ireland) shows no errors (except for flagging underlined text it was unsure were links, which are links so this is fine). It also highlighted a color contrast issue but this is unseen and is identified as being part of the Twitter widgets. 
 
-### CSS
-### Accessibility and Performance
+All other pages have no flags or errors reported.
 
-Scores
-
-Feedback from lighthouse on colour and names
-click here
-
-accordion
-
-
-
-
-
-research click here https://uxmovement.com/content/why-your-links-should-never-say-click-here/
+Lastly, I discovered in my research that links should never contain the text 'Click Here'. Having seen many such links in my time on the internet, I was unaware that this was bad practice but [This UX article](https://uxmovement.com/content/why-your-links-should-never-say-click-here/) explained why this should be avoided and I removed all 'Click Here' links on my page.
