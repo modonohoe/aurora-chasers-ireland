@@ -176,6 +176,10 @@ When a user submits their details a confirmation page (one for feedback, one for
 
 ![Confirmation page](assets/images/thank-you-page.png "Confirmation page")
 
+I struggled to come up with a design for my 'Goodbye Message' for my website and ultimately chose to use a Color Gradient background.
+
+![Color Gradient message](assets/images/gradient-message.jpg)
+
 ### **404 Page**
 
 There is a 404 page to redirect the user to the home page in case of an error.
