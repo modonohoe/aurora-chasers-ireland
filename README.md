@@ -292,6 +292,6 @@ Text content was written by Megan O'Donohoe and [Damien Moreau](https://www.link
 
 * My mentor Can Sücüllü for all of your guidance, advice, encouragement, recommendations and feedback. 
 
-* Team 'Livin' La Vida Yoda' from Code Institute's May Hackathon. Special mention to [Kera Cudmore](https://github.com/kera-cudmore) who generously helped us when we struggled with GitHub throughout the collaborative process. This experiences developed my skills and patience as a developer greatly.
+* Team ['Livin' La Vida Yoda'](kera-cudmore.github.io/this-is-the-way/) from Code Institute's May Hackathon 2023. Special mention to [Kera Cudmore](https://github.com/kera-cudmore) who generously helped us when we struggled with GitHub throughout the collaborative process. This experiences developed my skills and patience as a developer greatly.
 
 [Return to top](#table-of-contents)
