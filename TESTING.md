@@ -193,12 +193,15 @@ I used the Lighthouse Validator in Chrome DevTools site-wide. As mentioned alrea
 Here are the scores I received for the desktop version of each page and:
 
 1. index.html
+
     ![lighthouse score for index](assets/images/testing_imgs/lighthouse-index.jpg)
 
 2. tips_and_resources.html
+
     ![lighthouse score for tips](assets/images/testing_imgs/lighthouse-tips.jpg)
 
 3. gallery.html
+
     ![lighthouse score for gallery](assets/images/testing_imgs/lighthouse-gallery.jpg)
 
     The performance score is not what I would like it to be on this page and I did some research into the issues highlighted. For future projects I will use 'next-gen' formats for my images. 
@@ -206,6 +209,7 @@ Here are the scores I received for the desktop version of each page and:
     ![lighthouse feedback for images](assets/images/testing_imgs/next-gen-formats.jpg)
 
 4. contact.html
+
     ![lighthouse score for contact](assets/images/testing_imgs/lighthouse-contact.jpg)
 
 My performance scores on mobile greatly vary depending on device and screen-size. Again this mostly relates to my image format. This is something I discovered very late into my development so I am happy to leave this as unresolved for now rather than redo my image files and pathways in case this results in error.
