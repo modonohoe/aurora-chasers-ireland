@@ -178,7 +178,7 @@ When a user submits their details a confirmation page (one for feedback, one for
 
 ![Confirmation page](assets/images/thank-you-page.png "Confirmation page")
 
-I struggled to come up with a design for my 'Goodbye Message' for my website and ultimately chose to use a Color Gradient background.
+The 'Goodbye Message' is a color gradient background.
 
 ![Color Gradient message](assets/images/gradient-message.jpg)
 
@@ -272,7 +272,7 @@ In the future I would like to include:
 
 ### **Content**
 
-Text content was written by Megan O'Donohoe and (Damien Moreau)[https://www.linkedin.com/in/damien-moreau-2a3386100/]. With reference to content from the [National Oceanic and Atmospheric Association](https://www.swpc.noaa.gov/content/tips-viewing-aurora). 
+Text content was written by Megan O'Donohoe and [Damien Moreau](https://www.linkedin.com/in/damien-moreau-2a3386100/). With reference to content from the [National Oceanic and Atmospheric Association](https://www.swpc.noaa.gov/content/tips-viewing-aurora). 
 
 ### **Code**
 
