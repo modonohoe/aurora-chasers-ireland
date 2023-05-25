@@ -253,7 +253,8 @@ In the future I would like to include:
 - an expandable menu using Javascript.
 - a hamburger menu on this website using JavaScript.
 - more images and using different formats for these using a different conversion tool (e.g [Convertio.co](https://convertio.co/jpg-webp/) ).
-- a fully functioning form with a post request and have a database to collate data for the mailing list.
+- a fully functioning form with a post request.
+- a click and expand feature in the gallery to view images in more detail.
 
 ********************
 
