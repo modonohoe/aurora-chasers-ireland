@@ -126,7 +126,7 @@ The title 'Aurora Chasers Ireland' appears on all pages. As you can see in the i
 
 ##### **2. Nav Bar**
 
-The horizontal Nav bar is fully responsive and on mobile devices displays as a vertical list. The active page displays as underlined and there is a shadow effect when the user hovers over any of the list items.
+The horizontal Nav bar for easy and consistent navigation is fully responsive, on mobile devices it displays as a vertical list. The active page displays as underlined and there is a shadow effect when the user hovers over any of the list items.
 
 ![Nav bar](assets/images/nav-bar.png "Nav bar")
 
@@ -148,7 +148,7 @@ The bottom right of the footer contains my name and LinkedIn profile if the user
 
 ### **Home Section**
 
-The home page gives the user an introduction to who Aurora Chasers Ireland. It features two widgets to give quick and easy access to realtime information about Metereological weather and Solar weather for returning users.
+The home page gives the user an introduction to who Aurora Chasers Ireland are. It features two widgets to give quick and easy access to realtime information about Metereological weather and Solar weather for returning users.
 
 ![Home Page](assets/images/home-page.png "Home Page")
 
@@ -201,8 +201,6 @@ The color scheme was extracted in Adobe Color from the header image. I thought t
 A contrast check for the color scheme was done using https://contrast-grid.eightshapes.com/ for accessibility.
 
 ![Color Contrast](assets/images/color-contrast.jpg "Color Contrast")
-
-The colour was darkened on the contact page due to accessibility issues (more details in TESTING)
 
 #### **Font**
 

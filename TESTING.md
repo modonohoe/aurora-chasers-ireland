@@ -212,7 +212,7 @@ Here are the scores I received for the desktop version of each page and:
 
     ![lighthouse score for contact](assets/images/testing_imgs/lighthouse-contact.jpg)
 
-My performance scores on mobile greatly vary depending on device and screen-size. Again this mostly relates to my image format. This is something I discovered very late into my development so I am happy to leave this as unresolved for now rather than redo my image files and pathways.
+My performance scores on mobile greatly vary depending on device and screen-size. Again this mostly relates to my image format. This is something I discovered very late into my development so I am happy to leave this as an unfixed bug for now rather as I have achieved my MVP, rather than change all of my image files and their pathways.
   
 ### **Accessibility**
 
