@@ -283,6 +283,7 @@ Text content was written by Megan O'Donohoe and [Damien Moreau](https://www.link
 * [Kevin Powell's video](https://youtu.be/u044iM9xsWU) for help with Flexbox.
 * [Log Rocket](https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/)'s blog influenced my form styling.
 * [Dan Morriss](https://github.com/DanMorriss/collaborative-project1)'s section of our cohort's collaborative project influenced my decision to choose a gradient background on the contact.html page.
+* I was inspired to create a separate TESTING.md file and followed a similar layout to David Bower's [Modern Buddhism](https://github.com/dnlbowers/modern-buddhism) repository (which I found on Slack in a list of good example PP1s).
 
 ### **Acknowledgements**
 
