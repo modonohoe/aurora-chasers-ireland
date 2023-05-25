@@ -1,6 +1,6 @@
 # **Aurora Chasers Ireland**
 ## **Site Overview**
-Aurora Chasers Ireland is an information site and resource hub for users who are trying to see the Northern Lights (NL) in Ireland. 
+Aurora Chasers Ireland is an information site for users who are trying to see the Northern Lights (NL) in Ireland. This site is for people visiting Ireland, those living in Ireland or anyone who is curious about seeing the Aurora Borealis from the Island. Aurora Chasers Ireland site provides real-time weather information, tips for when, where and how to see the lights, advice for capturing photographs and more. There is a gallery section and an optional newsletter sign-up and contact form on the site.
 
 ![Am I Responsive Screenshot](assets/images/am-i-responsive-screenshot.png "Am I Responsive Screenshot")
 
