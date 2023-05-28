@@ -162,7 +162,7 @@ I intended this page to have an expanding menu feature howvever this was not fea
 
 ### **Gallery Section**
 
-The gallery contains beautiful images of Aurora Borealis taken from Ireland. I would love to include more images in the future (e.g. mobile phone images with permission). The photographer [Rita Wilson](https://www.ritawilsonphotography.com/) kindly gave me permission to use her images in this section. I also sourced images from [Shutterstock.com](https://www.shutterstock.com) and [iStock](https://www.istockphoto.com/). 
+The gallery contains beautiful images of Aurora Borealis taken from Ireland. I would love to include more images in the future (e.g. mobile phone images with permission). The photographer Rita Wilson kindly gave me permission to use her images in this section. I also sourced images from Shutterstock.com and iStock.com. 
 
 This page was created using the flex display and is fully responsive. An overlay describing where the image was taken and its author appear over each photo and a shadow effect appears when an image is hovered over.
 
